@@ -1,0 +1,141 @@
+
+---Upload files---
+Redux file was not uploaded. Error: File is empty. Please upload something more substantial.
+
+---Upload files---
+The import files were successfully uploaded!
+Initial max execution time = 60
+Files info:
+Site URL = http://chromium.themes.zone/catalog
+Data file = /srv/demo/chromium/wp-content/uploads/sites/11/2018/08/chromium-content.xml
+Widget file = /srv/demo/chromium/wp-content/uploads/sites/11/2018/08/chromium-widgets-1.wie
+Customizer file = /srv/demo/chromium/wp-content/uploads/sites/11/2018/08/chromium-customizer-1.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+[ERROR] Failed to import "One Click Demo Import - log_file_2018-08-03__07-45-23" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "One Click Demo Import - log_file_2018-08-03__07-45-23" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "One Click Demo Import - log_file_2018-08-03__07-45-23" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "One Click Demo Import - log_file_2018-08-03__07-45-23" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "One Click Demo Import - log_file_2018-08-03__07-45-23" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "One Click Demo Import - log_file_2018-08-03__07-45-23" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "One Click Demo Import - log_file_2018-08-03__07-45-23" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "One Click Demo Import - log_file_2018-08-03__07-45-23" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "One Click Demo Import - log_file_2018-08-03__07-45-23" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "One Click Demo Import - log_file_2018-08-03__07-45-23" (Media)
+
+
+---Importing widgets---
+sidebar-blog : Sidebar does not exist in theme (moving widget to Inactive)
+
+Search - No Title - Widget already exists
+Recent Posts - No Title - Widget already exists
+Recent Comments - No Title - Widget already exists
+Archives - No Title - Widget already exists
+Categories - No Title - Widget already exists
+Meta - No Title - Widget already exists
+TZ Categories - Top Categories - Widget already exists
+TZ Recent Posts - Recent Posts - Widget already exists
+Recent Comments - Latest Comments - Widget already exists
+Archives - Archives - Widget already exists
+TZ Most Viewed Posts - Most Viewed Posts - Widget already exists
+TZ Social Icons - Socials - Widget already exists
+
+hgroup-sidebar : Sidebar does not exist in theme (moving widget to Inactive)
+
+Woo Ajax Search - No Title - Widget already exists
+Custom HTML - No Title - Widget already exists
+TZ Cart for Woocommerce - Shopping Cart - Widget already exists
+
+sidebar-shop : Sidebar does not exist in theme (moving widget to Inactive)
+
+TZ Categories - Categories - Widget already exists
+Active Product Filters - Active Filters - Widget already exists
+Filter Products by Price - Price - Widget already exists
+Filter Products by Attribute - Department - Widget already exists
+Filter Products by Attribute - Car Type - Widget already exists
+Filter Products by Attribute - Brand - Widget already exists
+
+sidebar-product : Sidebar does not exist in theme (moving widget to Inactive)
+
+Products - Recent Products - Widget already exists
+Product Tag Cloud - Product tags - Widget already exists
+
+footer-sidebar-1 : Sidebar does not exist in theme (moving widget to Inactive)
+
+TZ Contacts - No Title - Widget already exists
+TZ Social Icons - Join Us: - Widget already exists
+
+footer-sidebar-2 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Meta - INFORMATION - Widget already exists
+
+footer-sidebar-3 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Pages - WHY BUY FROM US - Widget already exists
+
+footer-sidebar-4 : Sidebar does not exist in theme (moving widget to Inactive)
+
+TZ Payment Icons - We Accept: - Widget already exists
+
+top-sidebar-left : Sidebar does not exist in theme (moving widget to Inactive)
+
+Text - No Title - Widget already exists
+Text - No Title - Widget already exists
+Text - No Title - Widget already exists
+
+top-sidebar-right : Sidebar does not exist in theme (moving widget to Inactive)
+
+WooCommerce Currency Switcher - Currency:  - Widget already exists
+TZ Login/Register - No Title - Widget already exists
+
+Max Mega Menu Widgets : 
+
+TZ Output Shortcode - No Title - Widget already exists
+TZ Output Shortcode - No Title - Widget already exists
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---pt-ocdi/after_import---
+

@@ -1,0 +1,168 @@
+0000.000 (0) Opened log file at time: Tue, 05 Mar 2019 02:15:12 +0000 on https://tecdoc.clickhost.pk
+0000.005 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.16.4.24 WP: 5.0.3 PHP: 7.0.33 (cgi-fcgi, Linux s9.tez.host 3.10.0-714.10.2.lve1.5.19.7.el7.x86_64 #1 SMP Fri Sep 28 08:37:09 EDT 2018 x86_64) MySQL: 10.2.22-MariaDB-cll-lve WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 1024M (used: 15.7M | 18M) multisite: N openssl: OpenSSL 1.0.2q  20 Nov 2018 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.037 (0) Free space on disk containing Updraft's temporary directory: 220173.7 MB
+0000.042 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.046 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.055 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1551707559, seconds_ago=44553)
+0000.079 (0) Set semaphore last lock (fd) time to 2019-03-05 02:15:12
+0000.083 (0) Semaphore lock (fd) complete
+0000.096 (0) Backup run: resumption=0, nonce=42ce042b4d04, file_nonce=42ce042b4d04 begun at=1551752112 (0s ago), job type=backup
+0000.104 (0) Scheduling a resumption (1) after 300 seconds (1551752412) in case this run gets aborted
+0000.129 (0) Checking if we have a zip executable available
+0000.134 (0) Testing: /usr/bin/zip
+0000.142 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.147 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.151 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.156 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.160 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.169 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.173 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.187 (0) Working binary zip found: /usr/bin/zip
+0000.196 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.200 (0) Creation of backups of directories: beginning
+0000.209 (0) No backup of plugins: excluded by user's options
+0000.213 (0) No backup of themes: excluded by user's options
+0000.218 (0) No backup of uploads: excluded by user's options
+0000.222 (0) No backup of wpcore: excluded by user's options
+0000.226 (0) No backup of others: excluded by user's options
+0000.230 (0) No backup of more: excluded by user's options
+0000.251 (0) Saving backup status to database (elements: 0)
+0000.263 (0) Beginning creation of database dump (WordPress DB)
+0000.277 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0000.291 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wpcy_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nC (truncated - 1204 bytes total)
+0000.296 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0000.309 (0) Table wpcy_options: Total expected rows (approximate): 459
+0000.333 (0) Table wpcy_options: Total rows added: 462 in 0.02 seconds
+0000.338 (0) Table wpcy_options: finishing file (backup_2019-03-05-0215_spareparts_42ce042b4d04-db-table-wpcy_options.table.gz - 66.5 KB)
+0000.355 (0) Table wpcy_users: Total expected rows (approximate): 0
+0000.362 (0) Table wpcy_users: Total rows added: 1 in 0.00 seconds
+0000.366 (0) Table wpcy_users: finishing file (backup_2019-03-05-0215_spareparts_42ce042b4d04-db-table-wpcy_users.table.gz - 0.5 KB)
+0000.379 (0) Table wpcy_usermeta: Total expected rows (approximate): 20
+0000.385 (0) Table wpcy_usermeta: Total rows added: 20 in 0.00 seconds
+0000.389 (0) Table wpcy_usermeta: finishing file (backup_2019-03-05-0215_spareparts_42ce042b4d04-db-table-wpcy_usermeta.table.gz - 1 KB)
+0000.411 (0) Table wpcy_commentmeta: Total expected rows (approximate): 247
+0000.421 (0) Table wpcy_commentmeta: Total rows added: 247 in 0.00 seconds
+0000.430 (0) Table wpcy_commentmeta: finishing file (backup_2019-03-05-0215_spareparts_42ce042b4d04-db-table-wpcy_commentmeta.table.gz - 2.8 KB)
+0000.447 (0) Table wpcy_comments: Total expected rows (approximate): 96
+0000.459 (0) Table wpcy_comments: Total rows added: 94 in 0.00 seconds
+0000.464 (0) Table wpcy_comments: finishing file (backup_2019-03-05-0215_spareparts_42ce042b4d04-db-table-wpcy_comments.table.gz - 6.6 KB)
+0000.478 (0) Table wpcy_links: Total expected rows (approximate): 0
+0000.483 (0) Table wpcy_links: Total rows added: 0 in 0.00 seconds
+0000.488 (0) Table wpcy_links: finishing file (backup_2019-03-05-0215_spareparts_42ce042b4d04-db-table-wpcy_links.table.gz - 0.4 KB)
+0000.501 (0) Table wpcy_postmeta: Total expected rows (approximate): 4029
+0000.539 (0) Table wpcy_postmeta: Total rows added: 3961 in 0.03 seconds
+0000.543 (0) Table wpcy_postmeta: finishing file (backup_2019-03-05-0215_spareparts_42ce042b4d04-db-table-wpcy_postmeta.table.gz - 61.7 KB)
+0000.558 (0) Table wpcy_posts: Total expected rows (approximate): 311
+0000.579 (0) Table wpcy_posts: Total rows added: 319 in 0.02 seconds
+0000.584 (0) Table wpcy_posts: finishing file (backup_2019-03-05-0215_spareparts_42ce042b4d04-db-table-wpcy_posts.table.gz - 65.5 KB)
+0000.603 (0) Table wpcy_term_relationships: Total expected rows (approximate): 422
+0000.609 (0) Table wpcy_term_relationships: Total rows added: 419 in 0.00 seconds
+0000.614 (0) Table wpcy_term_relationships: finishing file (backup_2019-03-05-0215_spareparts_42ce042b4d04-db-table-wpcy_term_relationships.table.gz - 1.5 KB)
+0000.637 (0) Table wpcy_term_taxonomy: Total expected rows (approximate): 114
+0000.647 (0) Table wpcy_term_taxonomy: Total rows added: 114 in 0.00 seconds
+0000.655 (0) Table wpcy_term_taxonomy: finishing file (backup_2019-03-05-0215_spareparts_42ce042b4d04-db-table-wpcy_term_taxonomy.table.gz - 1.8 KB)
+0000.672 (0) Table wpcy_termmeta: Total expected rows (approximate): 328
+0000.679 (0) Table wpcy_termmeta: Total rows added: 328 in 0.00 seconds
+0000.684 (0) Table wpcy_termmeta: finishing file (backup_2019-03-05-0215_spareparts_42ce042b4d04-db-table-wpcy_termmeta.table.gz - 2 KB)
+0000.698 (0) Table wpcy_terms: Total expected rows (approximate): 114
+0000.704 (0) Table wpcy_terms: Total rows added: 114 in 0.00 seconds
+0000.708 (0) Table wpcy_terms: finishing file (backup_2019-03-05-0215_spareparts_42ce042b4d04-db-table-wpcy_terms.table.gz - 1.8 KB)
+0000.722 (0) Table wpcy_woocommerce_order_itemmeta: Total expected rows (approximate): 0
+0000.728 (0) Table wpcy_woocommerce_order_itemmeta: Total rows added: 0 in 0.00 seconds
+0000.733 (0) Table wpcy_woocommerce_order_itemmeta: finishing file (backup_2019-03-05-0215_spareparts_42ce042b4d04-db-table-wpcy_woocommerce_order_itemmeta.table.gz - 0.4 KB)
+0000.747 (0) Table wpcy_woocommerce_payment_tokenmeta: Total expected rows (approximate): 0
+0000.752 (0) Table wpcy_woocommerce_payment_tokenmeta: Total rows added: 0 in 0.00 seconds
+0000.757 (0) Table wpcy_woocommerce_payment_tokenmeta: finishing file (backup_2019-03-05-0215_spareparts_42ce042b4d04-db-table-wpcy_woocommerce_payment_tokenmeta.table.gz - 0.4 KB)
+0000.775 (0) Table wpcy_yoast_seo_links: Total expected rows (approximate): 320
+0000.781 (0) Table wpcy_yoast_seo_links: Total rows added: 320 in 0.00 seconds
+0000.786 (0) Table wpcy_yoast_seo_links: finishing file (backup_2019-03-05-0215_spareparts_42ce042b4d04-db-table-wpcy_yoast_seo_links.table.gz - 3.4 KB)
+0000.798 (0) Table wpcy_yoast_seo_meta: Total expected rows (approximate): 62
+0000.804 (0) Table wpcy_yoast_seo_meta: Total rows added: 65 in 0.00 seconds
+0000.808 (0) Table wpcy_yoast_seo_meta: finishing file (backup_2019-03-05-0215_spareparts_42ce042b4d04-db-table-wpcy_yoast_seo_meta.table.gz - 0.6 KB)
+0000.821 (0) Table wpcy_wc_download_log: Total expected rows (approximate): 0
+0000.825 (0) Table wpcy_wc_download_log: Total rows added: 0 in 0.00 seconds
+0000.830 (0) Table wpcy_wc_download_log: finishing file (backup_2019-03-05-0215_spareparts_42ce042b4d04-db-table-wpcy_wc_download_log.table.gz - 0.4 KB)
+0000.843 (0) Table wpcy_wc_webhooks: Total expected rows (approximate): 0
+0000.848 (0) Table wpcy_wc_webhooks: Total rows added: 0 in 0.00 seconds
+0000.855 (0) Table wpcy_wc_webhooks: finishing file (backup_2019-03-05-0215_spareparts_42ce042b4d04-db-table-wpcy_wc_webhooks.table.gz - 0.5 KB)
+0000.891 (0) Table wpcy_woocommerce_api_keys: Total expected rows (approximate): 0
+0000.896 (0) Table wpcy_woocommerce_api_keys: Total rows added: 0 in 0.00 seconds
+0000.901 (0) Table wpcy_woocommerce_api_keys: finishing file (backup_2019-03-05-0215_spareparts_42ce042b4d04-db-table-wpcy_woocommerce_api_keys.table.gz - 0.4 KB)
+0000.915 (0) Table wpcy_woocommerce_attribute_taxonomies: Total expected rows (approximate): 4
+0000.921 (0) Table wpcy_woocommerce_attribute_taxonomies: Total rows added: 4 in 0.00 seconds
+0000.925 (0) Table wpcy_woocommerce_attribute_taxonomies: finishing file (backup_2019-03-05-0215_spareparts_42ce042b4d04-db-table-wpcy_woocommerce_attribute_taxonomies.table.gz - 0.5 KB)
+0000.940 (0) Table wpcy_woocommerce_downloadable_product_permissions: Total expected rows (approximate): 0
+0000.945 (0) Table wpcy_woocommerce_downloadable_product_permissions: Total rows added: 0 in 0.00 seconds
+0000.950 (0) Table wpcy_woocommerce_downloadable_product_permissions: finishing file (backup_2019-03-05-0215_spareparts_42ce042b4d04-db-table-wpcy_woocommerce_downloadable_product_permissions.table.gz - 0.5 KB)
+0000.967 (0) Table wpcy_woocommerce_log: Total expected rows (approximate): 0
+0000.973 (0) Table wpcy_woocommerce_log: Total rows added: 0 in 0.00 seconds
+0000.977 (0) Table wpcy_woocommerce_log: finishing file (backup_2019-03-05-0215_spareparts_42ce042b4d04-db-table-wpcy_woocommerce_log.table.gz - 0.4 KB)
+0000.990 (0) Table wpcy_woocommerce_order_items: Total expected rows (approximate): 0
+0000.999 (0) Table wpcy_woocommerce_order_items: Total rows added: 0 in 0.00 seconds
+0001.006 (0) Table wpcy_woocommerce_order_items: finishing file (backup_2019-03-05-0215_spareparts_42ce042b4d04-db-table-wpcy_woocommerce_order_items.table.gz - 0.3 KB)
+0001.027 (0) Table wpcy_woocommerce_payment_tokens: Total expected rows (approximate): 0
+0001.033 (0) Table wpcy_woocommerce_payment_tokens: Total rows added: 0 in 0.00 seconds
+0001.038 (0) Table wpcy_woocommerce_payment_tokens: finishing file (backup_2019-03-05-0215_spareparts_42ce042b4d04-db-table-wpcy_woocommerce_payment_tokens.table.gz - 0.4 KB)
+0001.057 (0) Table wpcy_woocommerce_sessions: Total expected rows (approximate): 0
+0001.073 (0) Table wpcy_woocommerce_sessions: Total rows added: 0 in 0.00 seconds
+0001.092 (0) Table wpcy_woocommerce_sessions: finishing file (backup_2019-03-05-0215_spareparts_42ce042b4d04-db-table-wpcy_woocommerce_sessions.table.gz - 0.4 KB)
+0001.118 (0) Table wpcy_woocommerce_shipping_zone_locations: Total expected rows (approximate): 0
+0001.123 (0) Table wpcy_woocommerce_shipping_zone_locations: Total rows added: 0 in 0.00 seconds
+0001.127 (0) Table wpcy_woocommerce_shipping_zone_locations: finishing file (backup_2019-03-05-0215_spareparts_42ce042b4d04-db-table-wpcy_woocommerce_shipping_zone_locations.table.gz - 0.4 KB)
+0001.148 (0) Table wpcy_woocommerce_shipping_zone_methods: Total expected rows (approximate): 0
+0001.156 (0) Table wpcy_woocommerce_shipping_zone_methods: Total rows added: 0 in 0.00 seconds
+0001.161 (0) Table wpcy_woocommerce_shipping_zone_methods: finishing file (backup_2019-03-05-0215_spareparts_42ce042b4d04-db-table-wpcy_woocommerce_shipping_zone_methods.table.gz - 0.4 KB)
+0001.174 (0) Table wpcy_woocommerce_shipping_zones: Total expected rows (approximate): 0
+0001.180 (0) Table wpcy_woocommerce_shipping_zones: Total rows added: 0 in 0.00 seconds
+0001.184 (0) Table wpcy_woocommerce_shipping_zones: finishing file (backup_2019-03-05-0215_spareparts_42ce042b4d04-db-table-wpcy_woocommerce_shipping_zones.table.gz - 0.3 KB)
+0001.197 (0) Table wpcy_woocommerce_tax_rate_locations: Total expected rows (approximate): 0
+0001.203 (0) Table wpcy_woocommerce_tax_rate_locations: Total rows added: 0 in 0.00 seconds
+0001.209 (0) Table wpcy_woocommerce_tax_rate_locations: finishing file (backup_2019-03-05-0215_spareparts_42ce042b4d04-db-table-wpcy_woocommerce_tax_rate_locations.table.gz - 0.4 KB)
+0001.224 (0) Table wpcy_woocommerce_tax_rates: Total expected rows (approximate): 0
+0001.236 (0) Table wpcy_woocommerce_tax_rates: Total rows added: 0 in 0.00 seconds
+0001.242 (0) Table wpcy_woocommerce_tax_rates: finishing file (backup_2019-03-05-0215_spareparts_42ce042b4d04-db-table-wpcy_woocommerce_tax_rates.table.gz - 0.4 KB)
+0001.267 (0) backup_2019-03-05-0215_spareparts_42ce042b4d04-db-table-wpcy_options.table.gz (1/30): adding to final database dump
+0001.286 (0) backup_2019-03-05-0215_spareparts_42ce042b4d04-db-table-wpcy_users.table.gz (2/30): adding to final database dump
+0001.290 (0) backup_2019-03-05-0215_spareparts_42ce042b4d04-db-table-wpcy_usermeta.table.gz (3/30): adding to final database dump
+0001.294 (0) backup_2019-03-05-0215_spareparts_42ce042b4d04-db-table-wpcy_commentmeta.table.gz (4/30): adding to final database dump
+0001.299 (0) backup_2019-03-05-0215_spareparts_42ce042b4d04-db-table-wpcy_comments.table.gz (5/30): adding to final database dump
+0001.304 (0) backup_2019-03-05-0215_spareparts_42ce042b4d04-db-table-wpcy_links.table.gz (6/30): adding to final database dump
+0001.308 (0) backup_2019-03-05-0215_spareparts_42ce042b4d04-db-table-wpcy_postmeta.table.gz (7/30): adding to final database dump
+0001.323 (0) backup_2019-03-05-0215_spareparts_42ce042b4d04-db-table-wpcy_posts.table.gz (8/30): adding to final database dump
+0001.337 (0) backup_2019-03-05-0215_spareparts_42ce042b4d04-db-table-wpcy_term_relationships.table.gz (9/30): adding to final database dump
+0001.342 (0) backup_2019-03-05-0215_spareparts_42ce042b4d04-db-table-wpcy_term_taxonomy.table.gz (10/30): adding to final database dump
+0001.346 (0) backup_2019-03-05-0215_spareparts_42ce042b4d04-db-table-wpcy_termmeta.table.gz (11/30): adding to final database dump
+0001.351 (0) backup_2019-03-05-0215_spareparts_42ce042b4d04-db-table-wpcy_terms.table.gz (12/30): adding to final database dump
+0001.356 (0) backup_2019-03-05-0215_spareparts_42ce042b4d04-db-table-wpcy_woocommerce_order_itemmeta.table.gz (13/30): adding to final database dump
+0001.360 (0) backup_2019-03-05-0215_spareparts_42ce042b4d04-db-table-wpcy_woocommerce_payment_tokenmeta.table.gz (14/30): adding to final database dump
+0001.364 (0) backup_2019-03-05-0215_spareparts_42ce042b4d04-db-table-wpcy_yoast_seo_links.table.gz (15/30): adding to final database dump
+0001.369 (0) backup_2019-03-05-0215_spareparts_42ce042b4d04-db-table-wpcy_yoast_seo_meta.table.gz (16/30): adding to final database dump
+0001.373 (0) backup_2019-03-05-0215_spareparts_42ce042b4d04-db-table-wpcy_wc_download_log.table.gz (17/30): adding to final database dump
+0001.382 (0) backup_2019-03-05-0215_spareparts_42ce042b4d04-db-table-wpcy_wc_webhooks.table.gz (18/30): adding to final database dump
+0001.386 (0) backup_2019-03-05-0215_spareparts_42ce042b4d04-db-table-wpcy_woocommerce_api_keys.table.gz (19/30): adding to final database dump
+0001.391 (0) backup_2019-03-05-0215_spareparts_42ce042b4d04-db-table-wpcy_woocommerce_attribute_taxonomies.table.gz (20/30): adding to final database dump
+0001.398 (0) backup_2019-03-05-0215_spareparts_42ce042b4d04-db-table-wpcy_woocommerce_downloadable_product_permissions.table.gz (21/30): adding to final database dump
+0001.403 (0) backup_2019-03-05-0215_spareparts_42ce042b4d04-db-table-wpcy_woocommerce_log.table.gz (22/30): adding to final database dump
+0001.410 (0) backup_2019-03-05-0215_spareparts_42ce042b4d04-db-table-wpcy_woocommerce_order_items.table.gz (23/30): adding to final database dump
+0001.423 (0) backup_2019-03-05-0215_spareparts_42ce042b4d04-db-table-wpcy_woocommerce_payment_tokens.table.gz (24/30): adding to final database dump
+0001.427 (0) backup_2019-03-05-0215_spareparts_42ce042b4d04-db-table-wpcy_woocommerce_sessions.table.gz (25/30): adding to final database dump
+0001.432 (0) backup_2019-03-05-0215_spareparts_42ce042b4d04-db-table-wpcy_woocommerce_shipping_zone_locations.table.gz (26/30): adding to final database dump
+0001.436 (0) backup_2019-03-05-0215_spareparts_42ce042b4d04-db-table-wpcy_woocommerce_shipping_zone_methods.table.gz (27/30): adding to final database dump
+0001.441 (0) backup_2019-03-05-0215_spareparts_42ce042b4d04-db-table-wpcy_woocommerce_shipping_zones.table.gz (28/30): adding to final database dump
+0001.445 (0) backup_2019-03-05-0215_spareparts_42ce042b4d04-db-table-wpcy_woocommerce_tax_rate_locations.table.gz (29/30): adding to final database dump
+0001.449 (0) backup_2019-03-05-0215_spareparts_42ce042b4d04-db-table-wpcy_woocommerce_tax_rates.table.gz (30/30): adding to final database dump
+0001.454 (0) backup_2019-03-05-0215_spareparts_42ce042b4d04-db.gz: finished writing out complete database file (200 KB)
+0001.478 (0) Total database tables backed up: 30 (backup_2019-03-05-0215_spareparts_42ce042b4d04-db.gz, size: 220893, sha256)
+0001.499 (0) backup_2019-03-05-0215_spareparts_42ce042b4d04-db.gz: db: This file has not yet been successfully uploaded: will queue
+0001.503 (0) Saving backup history. Total backup size: 215.7 KB
+0001.513 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0001.531 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0001.535 (0) No remote despatch: user chose no remote backup service
+0001.539 (0) Recording as successfully uploaded: backup_2019-03-05-0215_spareparts_42ce042b4d04-db.gz
+0001.548 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0001.552 (0) Resume backup (42ce042b4d04, 0): finish run
+0001.570 (0) Decremented the semaphore (fd) by 1
+0001.578 (0) Semaphore (fd) unlocked
+0001.582 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0001.595 (0) No email will/can be sent - the user has not configured an email address.
+0001.600 (0) The backup apparently succeeded and is now complete

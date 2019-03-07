@@ -1,0 +1,75 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+ .post-layout .of-radio-img-img {
+ 	border:3px solid #f9f9f9;
+ 	margin:0 10px 10px 0;
+ 	display:none;
+ 	cursor:pointer;
+ 	float:left;
+   max-width: 50px;
+ }
+ .post-layout .of-radio-img-img {
+ 	margin:10px 10px 0 0;
+ 	float:none;
+ }
+ .post-layout .of-radio-img-selected {
+ 	border:3px solid #0f73ad;
+ }
+ .post-layout .of-radio-img-img:hover {
+ 	opacity:.8;
+ }
+ [class^="bw-icon-"]:before,
+ [class*=" bw-icon-"]:before {
+ 	font-size: 2em;
+ }
+
+ /* Special styles for tz_socials and tz_payment_icons */
+ .tz-widget-wrapper {
+ 	float:left;
+ 	margin-bottom:20px;
+ 	width:100%;
+ }
+ .tz-widget-wrapper label {
+ 	display:block;
+ 	margin-bottom:5px;
+ }
+ .tz-widget-wrapper .option_wrap label {
+ 	display:inline;
+ 	margin-bottom:0;
+ }
+ .tz-widget-wrapper .option_wrap {
+ 	width:47%;
+ 	display: inline-block;
+ 	float: left;
+ }
+ .tz-widget-wrapper .option_wrap.right {
+ 	float: right;
+ 	padding-top: 5px;
+ }
+ .tz-widget-wrapper .clear-float {
+ 	clear: both;
+ }
+ .tz-widget-wrapper .list_wrap {
+ 	border-top:1px #ccc solid;
+ 	clear:both;
+ 	float:left;
+ 	margin-top:1.5em;
+ 	padding-top:1.5em;
+ 	width:100%;
+ }
+ .tz-widget-wrapper .list_wrap .option_wrap {
+ 	width: 100%;
+ }
+ .tz-widget-wrapper .list_wrap li {
+ 	border-bottom:1px #ccc dotted;
+ 	float:left;
+ 	padding:5px 1.5% 15px;
+ 	width:30%;
+ }
+ .tz-widget-wrapper .list_wrap li  h4 {
+ 	margin:5px 0;
+ 	text-transform:capitalize;
+ }

@@ -1,0 +1,175 @@
+0000.001 () Opened log file at time: Thu, 21 Feb 2019 08:37:15 +0000 on http://tecdoc.clickhost.pk
+0000.001 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.16.4.24 WP: 5.0.3 PHP: 7.0.33 (cgi-fcgi, Linux s9.tez.host 3.10.0-714.10.2.lve1.5.19.7.el7.x86_64 #1 SMP Fri Sep 28 08:37:09 EDT 2018 x86_64) MySQL: 10.2.22-MariaDB-cll-lve WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 1024M (used: 6.2M | 8M) multisite: N openssl: OpenSSL 1.0.2q  20 Nov 2018 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.029 () Free space on disk containing Updraft's temporary directory: 233765.8 MB
+0000.042 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"updraft_restorer_replacesiteurl":"1","updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.043 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.044 () Entity: db
+0000.044 () restore_backup(backup_file=backup_2019-02-21-0832_spareparts_c7129fbf34bc-db.gz, type=db, info=a:0:{}, last_one=)
+0000.044 () Unpacking backup... (backup_2019-02-21-0832_spareparts_c7129fbf34bc-db.gz, 0.3 Mb)
+0000.044 () Database successfully unpacked
+0000.045 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.045 () Using direct MySQL access; value of use_mysqli is: 1
+0000.058 () Max packet size: 256 MB
+0000.058 () Entering maintenance mode
+0000.058 () Enabling Maintenance mode&#8230;
+0000.058 () Backup of: http://spareparts.test
+0000.072 () Content URL: http://spareparts.test/wp-content
+0000.072 () Uploads URL: http://spareparts.test/wp-content/uploads
+0000.072 () Old table prefix: wp_
+0000.072 () Site information: multisite=0
+0000.073 () New table prefix: wpcy_
+0000.074 () Processing table (InnoDB): wp_options - will restore as: wpcy_options
+0000.366 () Restoring prior UD configuration (table: wpcy_options; keys: 94)
+0001.072 () Table prefix has changed: changing options table field(s) accordingly (options)
+0001.079 () Options table fields changed OK
+0001.082 () Search and replacing table: wpcy_options: rows: 501
+0001.133 () Incomplete object detected in database: FS_Plugin; Search and replace will be skipped for these entries
+0001.166 () Processing table (InnoDB): wp_users - will restore as: wpcy_users
+0001.210 () Search and replacing table: wpcy_users: rows: 1
+0001.211 () Processing table (InnoDB): wp_usermeta - will restore as: wpcy_usermeta
+0001.267 () Table prefix has changed: changing usermeta table field(s) accordingly
+0001.271 () Usermeta table fields changed OK
+0001.272 () Search and replacing table: wpcy_usermeta: rows: 20
+0001.273 () Processing table (InnoDB): wp_commentmeta - will restore as: wpcy_commentmeta
+0001.342 () Search and replacing table: wpcy_commentmeta: rows: 247
+0001.348 () Processing table (InnoDB): wp_comments - will restore as: wpcy_comments
+0001.438 () Search and replacing table: wpcy_comments: rows: 96
+0001.444 () Processing table (InnoDB): wp_links - will restore as: wpcy_links
+0001.478 () Search and replacing table: wpcy_links: rows: 0
+0001.478 () Processing table (InnoDB): wp_postmeta - will restore as: wpcy_postmeta
+0001.862 () Search and replacing table: wpcy_postmeta: rows: 26
+0001.897 () Processing table (InnoDB): wp_posts - will restore as: wpcy_posts
+0002.204 () Skipping search/replace on GUID column in posts table
+0002.205 () Search and replacing table: wpcy_posts: rows: 322
+0002.240 () Processing table (InnoDB): wp_term_relationships - will restore as: wpcy_term_relationships
+0002.280 () Skipping this table: data in this table (wpcy_term_relationships) should not be search/replaced
+0002.280 () Processing table (InnoDB): wp_term_taxonomy - will restore as: wpcy_term_taxonomy
+0002.323 () Search and replacing table: wpcy_term_taxonomy: rows: 114
+0002.327 () Processing table (InnoDB): wp_termmeta - will restore as: wpcy_termmeta
+0002.380 () Search and replacing table: wpcy_termmeta: rows: 328
+0002.384 () Processing table (InnoDB): wp_terms - will restore as: wpcy_terms
+0002.457 () Search and replacing table: wpcy_terms: rows: 114
+0002.460 () Processing table (InnoDB): wp_woocommerce_order_itemmeta - will restore as: wpcy_woocommerce_order_itemmeta
+0002.510 () Search and replacing table: wpcy_woocommerce_order_itemmeta: rows: 0
+0002.510 () Processing table (InnoDB): wp_woocommerce_payment_tokenmeta - will restore as: wpcy_woocommerce_payment_tokenmeta
+0002.558 () Database queries processed: 50 in 2.51 seconds
+0002.559 () Search and replacing table: wpcy_woocommerce_payment_tokenmeta: rows: 0
+0002.559 () Processing table (InnoDB): wp_yoast_seo_links - will restore as: wpcy_yoast_seo_links
+0002.621 () Search and replacing table: wpcy_yoast_seo_links: rows: 320
+0002.762 () Processing table (InnoDB): wp_yoast_seo_meta - will restore as: wpcy_yoast_seo_meta
+0002.983 () Search and replacing table: wpcy_yoast_seo_meta: rows: 62
+0002.984 () Processing table (InnoDB): wp_wc_download_log - will restore as: wpcy_wc_download_log
+0003.096 () Search and replacing table: wpcy_wc_download_log: rows: 0
+0003.096 () Processing table (InnoDB): wp_wc_webhooks - will restore as: wpcy_wc_webhooks
+0003.139 () Search and replacing table: wpcy_wc_webhooks: rows: 0
+0003.139 () Processing table (InnoDB): wp_woocommerce_api_keys - will restore as: wpcy_woocommerce_api_keys
+0003.191 () Search and replacing table: wpcy_woocommerce_api_keys: rows: 0
+0003.191 () Processing table (InnoDB): wp_woocommerce_attribute_taxonomies - will restore as: wpcy_woocommerce_attribute_taxonomies
+0003.227 () Search and replacing table: wpcy_woocommerce_attribute_taxonomies: rows: 4
+0003.227 () Processing table (InnoDB): wp_woocommerce_downloadable_product_permissions - will restore as: wpcy_woocommerce_downloadable_product_permissions
+0003.301 () Search and replacing table: wpcy_woocommerce_downloadable_product_permissions: rows: 0
+0003.301 () Processing table (InnoDB): wp_woocommerce_log - will restore as: wpcy_woocommerce_log
+0003.342 () Search and replacing table: wpcy_woocommerce_log: rows: 0
+0003.342 () Processing table (InnoDB): wp_woocommerce_order_items - will restore as: wpcy_woocommerce_order_items
+0003.392 () Skipping this table: data in this table (wpcy_woocommerce_order_items) should not be search/replaced
+0003.392 () Processing table (InnoDB): wp_woocommerce_payment_tokens - will restore as: wpcy_woocommerce_payment_tokens
+0003.421 () Search and replacing table: wpcy_woocommerce_payment_tokens: rows: 0
+0003.421 () Processing table (InnoDB): wp_woocommerce_sessions - will restore as: wpcy_woocommerce_sessions
+0003.469 () Skipping this table: data in this table (wpcy_woocommerce_sessions) should not be search/replaced
+0003.469 () Processing table (InnoDB): wp_woocommerce_shipping_zone_locations - will restore as: wpcy_woocommerce_shipping_zone_locations
+0003.516 () Search and replacing table: wpcy_woocommerce_shipping_zone_locations: rows: 0
+0003.516 () Processing table (InnoDB): wp_woocommerce_shipping_zone_methods - will restore as: wpcy_woocommerce_shipping_zone_methods
+0003.552 () Search and replacing table: wpcy_woocommerce_shipping_zone_methods: rows: 0
+0003.552 () Processing table (InnoDB): wp_woocommerce_shipping_zones - will restore as: wpcy_woocommerce_shipping_zones
+0003.610 () Search and replacing table: wpcy_woocommerce_shipping_zones: rows: 0
+0003.610 () Processing table (InnoDB): wp_woocommerce_tax_rate_locations - will restore as: wpcy_woocommerce_tax_rate_locations
+0003.663 () Search and replacing table: wpcy_woocommerce_tax_rate_locations: rows: 0
+0003.663 () Processing table (InnoDB): wp_woocommerce_tax_rates - will restore as: wpcy_woocommerce_tax_rates
+0003.708 () Unlocking database and leaving maintenance mode
+0003.708 () Disabling Maintenance mode&#8230;
+0003.709 () Search and replacing table: wpcy_woocommerce_tax_rates: rows: 0
+0003.709 () Finished: lines processed: 88 in 3.66 seconds
+0003.709 () Cleaning up rubbish...
+0003.709 () Begin search and replace (updraftplus_restored_db)
+0003.709 () [Database-replace-site-url] Database: search and replace site URL
+0003.710 () Restored pre-migration site ID for this installation
+0003.721 () Database search and replace: replace http://spareparts.test in backup dump with http://tecdoc.clickhost.pk
+0003.721 () Database search and replace: replace https://spareparts.test in backup dump with http://tecdoc.clickhost.pk
+0003.722 () Search and replacing table: wpcy_commentmeta: already done
+0003.722 () Search and replacing table: wpcy_comments: already done
+0003.722 () Search and replacing table: wpcy_links: already done
+0003.722 () Search and replacing table: wpcy_options: already done
+0003.722 () Search and replacing table: wpcy_postmeta: already done
+0003.722 () Search and replacing table: wpcy_posts: already done
+0003.722 () Search and replacing table: wpcy_term_relationships: already done
+0003.722 () Search and replacing table: wpcy_term_taxonomy: already done
+0003.722 () Search and replacing table: wpcy_termmeta: already done
+0003.722 () Search and replacing table: wpcy_terms: already done
+0003.722 () Search and replacing table: wpcy_usermeta: already done
+0003.722 () Search and replacing table: wpcy_users: already done
+0003.722 () Search and replacing table: wpcy_wc_download_log: already done
+0003.722 () Search and replacing table: wpcy_wc_webhooks: already done
+0003.722 () Search and replacing table: wpcy_woocommerce_api_keys: already done
+0003.722 () Search and replacing table: wpcy_woocommerce_attribute_taxonomies: already done
+0003.722 () Search and replacing table: wpcy_woocommerce_downloadable_product_permissions: already done
+0003.722 () Search and replacing table: wpcy_woocommerce_log: already done
+0003.722 () Search and replacing table: wpcy_woocommerce_order_itemmeta: already done
+0003.722 () Search and replacing table: wpcy_woocommerce_order_items: already done
+0003.722 () Search and replacing table: wpcy_woocommerce_payment_tokenmeta: already done
+0003.722 () Search and replacing table: wpcy_woocommerce_payment_tokens: already done
+0003.722 () Search and replacing table: wpcy_woocommerce_sessions: already done
+0003.722 () Search and replacing table: wpcy_woocommerce_shipping_zone_locations: already done
+0003.722 () Search and replacing table: wpcy_woocommerce_shipping_zone_methods: already done
+0003.722 () Search and replacing table: wpcy_woocommerce_shipping_zones: already done
+0003.722 () Search and replacing table: wpcy_woocommerce_tax_rate_locations: already done
+0003.722 () Search and replacing table: wpcy_woocommerce_tax_rates: already done
+0003.722 () Search and replacing table: wpcy_yoast_seo_links: already done
+0003.722 () Search and replacing table: wpcy_yoast_seo_meta: already done
+0003.742 () Entity: plugins
+0003.742 () restore_backup(backup_file=backup_2019-02-21-0832_spareparts_c7129fbf34bc-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:53:"/home2/clickhos/public_html/tecdoc/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0003.742 () Unpacking backup... (backup_2019-02-21-0832_spareparts_c7129fbf34bc-plugins.zip, 20.7 Mb)
+0003.743 () Unzipping backup_2019-02-21-0832_spareparts_c7129fbf34bc-plugins.zip to /home2/clickhos/public_html/tecdoc/wp-content/upgrade/aca120ea/ using UpdraftPlus_ZipArchive
+0003.831 () Unzip progress: 1002 out of 6563 files (515.9 KB, plugins/ajax-search-for-woocommerce/fs/lib/assets/scss/_start.scss)
+0003.954 () Unzip progress: 2003 out of 6563 files (14.7 MB, plugins/mailchimp/i18n/jquery.ui.datepicker-hr.js)
+0010.083 () Unzip progress: 3004 out of 6563 files (31.1 MB, plugins/updraftplus/vendor/autoload.php)
+0011.946 () Unzip progress: 4005 out of 6563 files (35.8 MB, plugins/updraftplus/vendor/yahnis-elsts/plugin-update-checker/js/debug-bar.js)
+0018.536 () Unzip progress: 5006 out of 6563 files (53.1 MB, plugins/woocommerce/includes/class-wc-ajax.php)
+0022.743 () Unzip progress: 6007 out of 6563 files (62.4 MB, plugins/wordpress-seo/js/dist/select2/i18n/hy.js)
+0026.628 () Unzip progress: 6563 out of 6563 files (70.1 MB, plugins/wordpress-seo/wpml-config.xml)
+0026.630 () Moving old data: filesystem method / updraft_dir is potentially possible
+0026.630 () Moving old data: can potentially use wp_filesystem method / -old
+0026.630 () Moving old data out of the way...
+0026.708 () Top-level entities being moved: updraftplus, hello.php, index.php, akismet
+0026.709 () Moving unpacked backup into place...
+0026.901 () Top-level entities being moved: updraftplus, hello.php, tz-feature-pack, index.php, contact-form-7, akismet, wordpress-seo, one-click-demo-import, ajax-search-for-woocommerce, force-regenerate-thumbnails, elementor, woocommerce, wck-custom-fields-and-custom-post-types-creator, tm-woocommerce-compare-wishlist, mailchimp, kirki, megamenu
+0026.903 () Cleaning up rubbish...
+0026.913 () Entity: themes
+0026.913 () restore_backup(backup_file=backup_2019-02-21-0832_spareparts_c7129fbf34bc-themes.zip, type=themes, info=a:2:{s:4:"path";s:52:"/home2/clickhos/public_html/tecdoc/wp-content/themes";s:11:"description";s:6:"Themes";}, last_one=)
+0026.913 () Unpacking backup... (backup_2019-02-21-0832_spareparts_c7129fbf34bc-themes.zip, 8 Mb)
+0026.913 () Unzipping backup_2019-02-21-0832_spareparts_c7129fbf34bc-themes.zip to /home2/clickhos/public_html/tecdoc/wp-content/upgrade/5fff0367/ using UpdraftPlus_ZipArchive
+0033.213 () Unzip progress: 285 out of 285 files (19.1 MB, themes/twentysixteen/template-parts/content.php)
+0033.213 () Moving old data: filesystem method / updraft_dir is potentially possible
+0033.213 () Moving old data: can potentially use wp_filesystem method / -old
+0033.213 () Moving old data out of the way...
+0033.219 () Top-level entities being moved: twentyseventeen, twentynineteen, twentysixteen, index.php
+0033.219 () Moving unpacked backup into place...
+0033.225 () Top-level entities being moved: twentyseventeen, twentyfifteen, twentysixteen, chromium, index.php
+0033.226 () Cleaning up rubbish...
+0033.257 () Entity: uploads
+0033.257 () restore_backup(backup_file=backup_2019-02-21-0832_spareparts_c7129fbf34bc-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:53:"/home2/clickhos/public_html/tecdoc/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0033.257 () Unpacking backup... (backup_2019-02-21-0832_spareparts_c7129fbf34bc-uploads.zip, 32.5 Mb)
+0033.257 () Unzipping backup_2019-02-21-0832_spareparts_c7129fbf34bc-uploads.zip to /home2/clickhos/public_html/tecdoc/wp-content/upgrade/b2f46ece/ using UpdraftPlus_ZipArchive
+0045.070 () Unzip progress: 256 out of 256 files (35.2 MB, uploads/woocommerce_uploads/index.html)
+0045.071 () Moving old data: filesystem method / updraft_dir is potentially possible
+0045.071 () Moving old data: can potentially use wp_filesystem method / -old
+0045.071 () Moving old data out of the way...
+0045.071 () Moving unpacked backup into place...
+0045.074 () Cleaning up rubbish...
+0045.083 () Entity: others
+0045.083 () restore_backup(backup_file=backup_2019-02-21-0832_spareparts_c7129fbf34bc-others.zip, type=others, info=a:2:{s:4:"path";s:45:"/home2/clickhos/public_html/tecdoc/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0045.083 () Unpacking backup... (backup_2019-02-21-0832_spareparts_c7129fbf34bc-others.zip, 0 Mb)
+0045.083 () Unzipping backup_2019-02-21-0832_spareparts_c7129fbf34bc-others.zip to /home2/clickhos/public_html/tecdoc/wp-content/upgrade/bb8e603c/ using UpdraftPlus_ZipArchive
+0045.088 () Unzip progress: 1 out of 1 files (28 B, index.php)
+0045.089 () Cleaning up rubbish...
+0045.108 () Restore successful!
+0045.108 () Restore successful

@@ -1,0 +1,399 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-02 23:59+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Damian Góra <wp@damiangora.com>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: ajax-search-for-woocommerce.php:94
+msgid ""
+"<b>Ajax Search for WooCommerce</b>: You need PHP version at least 5.3 to run "
+"this plugin. You are currently using PHP version "
+msgstr ""
+
+#: ajax-search-for-woocommerce.php:111
+#, php-format
+msgid ""
+"<b>Ajax Search for WooCommerce</b> is enabled but not effective. It requires "
+"%s in order to work."
+msgstr ""
+
+#: includes/class-result-details.php:147
+msgid "Category"
+msgstr ""
+
+#: includes/class-result-details.php:149
+msgid "Tag"
+msgstr ""
+
+#: includes/class-search.php:167
+msgid "No results"
+msgstr ""
+
+#: includes/class-search.php:263 includes/class-search.php:314
+msgid "in"
+msgstr ""
+
+#: includes/widget.php:19
+msgid "Ajax (live) search form for WooCommerce"
+msgstr ""
+
+#: includes/widget.php:21 includes/admin/admin-menus.php:23
+msgid "Woo Ajax Search"
+msgstr ""
+
+#: includes/widget.php:26
+msgid "Title"
+msgstr ""
+
+#: includes/register-scripts.php:28
+msgctxt "For product badge: on sale"
+msgid "sale"
+msgstr ""
+
+#: includes/register-scripts.php:29
+msgctxt "For product badge: featured"
+msgid "featured"
+msgstr ""
+
+#: includes/tmpl/search-form.php:19
+msgid "Products search"
+msgstr ""
+
+#: includes/tmpl/search-form.php:27
+#: includes/admin/settings/class-settings.php:139
+msgid "Search for products..."
+msgstr ""
+
+#. Name of the plugin
+#: includes/admin/admin-menus.php:23 includes/admin/views/settings.php:9
+msgid "Ajax Search for WooCommerce"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:69
+msgid "Basic"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:73
+msgid "Advanced"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:77
+msgid "Extra Details"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:81
+msgid "Style"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:101
+msgid "How to use?"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:107
+msgid "Suggestions limit"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:110
+msgid "Maximum number of suggestions rows."
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:115
+msgid "Minimum characters"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:118
+msgid "Minimum number of characters required to trigger autosuggest."
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:123
+msgid "Show submit button"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:130
+msgid "Search submit button text"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:132
+msgid "To display a magnifier icon leave this field empty."
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:133
+msgid "Search"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:137
+msgid "Search input placeholder"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:143
+msgid "Show details box"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:146
+msgid ""
+"The Details box is an additional container for extended information. The "
+"details are changed dynamically when you hover the mouse over one of the "
+"suggestions."
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:153
+msgid "Product search"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:158
+msgid "Search in products content"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:164
+msgid "Search in products excerpt"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:170
+msgid "Search in products SKU"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:176
+msgid "Exclude 'out of stock' products"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:182
+msgid "Taxonomy search"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:187
+msgid "Show matching categories"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:193
+msgid "Show matching tags"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:199
+msgid "Suggestions output"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:204
+msgid "Show product image"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:210
+msgid "Show price"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:216
+msgid "Show product description"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:222
+msgid "Show SKU"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:242
+msgid "Category and tag details:"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:247
+msgid "Show"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:250
+msgid "All Product"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:251
+msgid "Featured Products"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:252
+msgid "On-sale Products"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:258
+#: includes/admin/settings/class-settings.php:270
+msgid "Order by"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:261
+msgid "Date"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:262
+msgid "Price"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:263
+msgid "Random"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:264
+msgid "Sales"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:273
+msgid "DESC"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:274
+msgid "ASC"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:280
+msgid "Other"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:285
+msgid "Details box position"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:287
+msgid ""
+"If your search form is very close to the right window screen, then select "
+"left."
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:289
+msgid "Left"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:290
+msgid "Right"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:298
+msgid "Search form"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:303
+msgid "Search input background"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:309
+msgid "Search input text"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:315
+msgid "Search input border"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:321
+msgid "Search submit background"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:327
+msgid "Search submit text"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:333
+msgid "Suggestions"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:338
+msgid "Suggestion background"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:344
+msgid "Suggestion selected"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:350
+msgid "Text color"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:356
+msgid "Highlight color"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:362
+msgid "Border color"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:368
+msgid "Suggestions width"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:371
+msgid ""
+"Overvrite the suggestions container width. Leave this field empty to adjust "
+"the suggestions container width to the search input width."
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:376
+msgid "Preloader"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:381
+msgid "Show preloader"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:387
+msgid "Upload preloader image"
+msgstr ""
+
+#: includes/admin/views/how-to-use.php:2
+msgid "There are two easy ways to display the search form"
+msgstr ""
+
+#: includes/admin/views/how-to-use.php:3
+#, php-format
+msgid "Use a shortcode %s"
+msgstr ""
+
+#: includes/admin/views/how-to-use.php:4
+#, php-format
+msgid "Go to the %s and choose \"Woo Ajax Search\""
+msgstr ""
+
+#: includes/admin/views/how-to-use.php:4
+msgid "Widgets Screen"
+msgstr ""
+
+#: includes/admin/Promo/FeedbackNotice.php:68
+#, php-format
+msgid ""
+"Hey %s, it's Damian Góra from %s. You have used this free plugin for some "
+"time now, and I hope you like it!"
+msgstr ""
+
+#: includes/admin/Promo/FeedbackNotice.php:73
+#, php-format
+msgid ""
+"I have spent countless hours developing it, and it would mean a lot to me if "
+"you %ssupport it with a quick review on WordPress.org.%s"
+msgstr ""
+
+#: includes/admin/Promo/FeedbackNotice.php:79
+#, php-format
+msgid "Review %s"
+msgstr ""
+
+#: includes/admin/Promo/FeedbackNotice.php:83
+msgid "No thanks"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"The plugin allows you to display the WooCommerce AJAX search form anywhere "
+"on the page."
+msgstr ""
+
+#. URI of the plugin
+msgid "https://wordpress.org/plugins/ajax-search-for-woocommerce/"
+msgstr ""
+
+#. Author of the plugin
+msgid "Damian Góra"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://damiangora.com"
+msgstr ""

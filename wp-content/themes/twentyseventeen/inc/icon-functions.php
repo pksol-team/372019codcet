@@ -46,10 +46,10 @@ function twentyseventeen_get_svg( $args = array() ) {
 
 	// Set defaults.
 	$defaults = array(
-		'icon'     => '',
-		'title'    => '',
-		'desc'     => '',
-		'fallback' => false,
+		'icon'        => '',
+		'title'       => '',
+		'desc'        => '',
+		'fallback'    => false,
 	);
 
 	// Parse args.
@@ -74,7 +74,7 @@ function twentyseventeen_get_svg( $args = array() ) {
 	 */
 	if ( $args['title'] ) {
 		$aria_hidden     = '';
-		$unique_id       = twentyseventeen_unique_id();
+		$unique_id       = uniqid();
 		$aria_labelledby = ' aria-labelledby="title-' . $unique_id . '"';
 
 		if ( $args['desc'] ) {

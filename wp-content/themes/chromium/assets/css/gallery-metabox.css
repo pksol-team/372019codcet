@@ -1,0 +1,16 @@
+#gallery-metabox-list li {
+  float: left;
+  width: 46%;
+  text-align: center;
+  margin: 0 4% 15px 0;
+  cursor: move;
+}
+#gallery-metabox-list li img {
+  max-width: 100%;
+  height: auto;
+}
+#gallery-metabox-list::after {
+  display: table;
+  content: '';
+  clear: both;
+}

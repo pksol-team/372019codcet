@@ -1,0 +1,47 @@
+a:4:{s:8:"template";s:8:"chromium";s:4:"mods";a:41:{i:0;b:0;s:18:"nav_menu_locations";a:1:{s:14:"logo-group-nav";i:197;}s:18:"custom_css_post_id";i:2105;s:17:"header_background";a:6:{s:16:"background-color";s:7:"#ffffff";s:16:"background-image";s:0:"";s:17:"background-repeat";s:10:"repeat-all";s:19:"background-position";s:13:"center center";s:15:"background-size";s:5:"cover";s:21:"background-attachment";s:6:"scroll";}s:17:"footer_background";a:6:{s:16:"background-color";s:7:"#212121";s:16:"background-image";s:0:"";s:17:"background-repeat";s:10:"repeat-all";s:19:"background-position";s:13:"center center";s:15:"background-size";s:5:"cover";s:21:"background-attachment";s:6:"scroll";}s:16:"site_text_colors";a:4:{s:7:"primary";s:7:"#626262";s:9:"secondary";s:7:"#626262";s:10:"decorative";s:7:"#fdb819";s:14:"sec-decorative";s:7:"#ffa800";}s:16:"site_link_colors";a:8:{s:6:"normal";s:7:"#212121";s:5:"hover";s:7:"#fdb819";s:14:"sidebar-normal";s:7:"#626262";s:13:"sidebar-hover";s:7:"#fdb819";s:16:"top-panel-normal";s:7:"#ffffff";s:15:"top-panel-hover";s:7:"#fdb819";s:13:"footer-normal";s:7:"#9a9a9a";s:12:"footer-hover";s:7:"#fdb819";}s:20:"site_headings_colors";a:4:{s:7:"content";s:7:"#000000";s:7:"sidebar";s:7:"#000000";s:6:"footer";s:7:"#ffffff";s:6:"header";s:7:"#626262";}s:30:"site_secondary_elements_colors";a:2:{s:6:"border";s:7:"#ebebeb";s:4:"icon";s:7:"#cacaca";}s:23:"site_text_fields_colors";a:3:{s:5:"color";s:7:"#9eadb6";s:16:"background-color";s:7:"#ffffff";s:12:"border-color";s:7:"#dbdbdb";}s:23:"site_primary_btn_colors";a:4:{s:5:"color";s:7:"#212121";s:11:"color-hover";s:4:"#fff";s:16:"background-color";s:7:"#fdb819";s:22:"background-color-hover";s:7:"#212121";}s:25:"site_secondary_btn_colors";a:4:{s:5:"color";s:7:"#ffffff";s:11:"color-hover";s:7:"#212121";s:16:"background-color";s:7:"#212121";s:22:"background-color-hover";s:7:"#ffa800";}s:15:"single_post_nav";b:1;s:21:"add_header_background";b:1;s:21:"add_footer_background";b:1;s:22:"copyright_section_text";s:408:"Chromium Auto Parts by <a href="https://themes.zone" rel="nofollow" target="_blank">Themes Zone</a> Car Logos by <a href="https://www.freepik.com" rel="nofollow" target="_blank">FreePik</a> | Icons made by <a href="https://www.freepik.com" title="Freepik" rel="nofollow" target="_blank">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon" rel="nofollow" target="_blank">www.flaticon.com</a>";s:14:"product_layout";s:7:"one-col";s:16:"add_meta_section";b:1;s:11:"shop_layout";s:12:"two-col-left";s:12:"front_layout";s:7:"one-col";s:11:"page_layout";s:7:"one-col";s:11:"blog_layout";s:13:"two-col-right";s:13:"single_layout";s:13:"two-col-right";s:24:"footer_shortcode_section";s:0:"";s:20:"blog_hide_categories";b:0;s:14:"blog_hide_tags";b:1;s:22:"single_hide_categories";b:0;s:21:"gallery_filter_colors";a:4:{s:5:"color";s:7:"#81858c";s:11:"color-hover";s:7:"#212121";s:16:"background-color";s:4:"#fff";s:22:"background-color-hover";s:7:"#fdb819";}s:19:"site_alt_btn_colors";a:4:{s:5:"color";s:7:"#212121";s:11:"color-hover";s:4:"#fff";s:16:"background-color";s:7:"#9eadb6";s:22:"background-color-hover";s:7:"#212121";}s:19:"site_shares_socials";a:6:{i:0;s:8:"facebook";i:1;s:7:"twitter";i:2;s:6:"google";i:3;s:9:"pinterest";i:4;s:2:"vk";i:5;s:4:"mail";}s:27:"site_primary_alt_btn_colors";a:4:{s:5:"color";s:7:"#212121";s:11:"color-hover";s:7:"#212121";s:16:"background-color";s:7:"#fdb819";s:22:"background-color-hover";s:7:"#ffa800";}s:29:"site_secondary_alt_btn_colors";a:4:{s:5:"color";s:4:"#fff";s:11:"color-hover";s:4:"#fff";s:16:"background-color";s:7:"#212121";s:22:"background-color-hover";s:7:"#3a3a3a";}s:24:"one_row_related_up_sells";b:1;s:17:"footer_text_color";s:7:"#9a9a9a";s:19:"store_product_style";s:7:"style-4";s:18:"store_badges_style";s:7:"style-3";s:21:"single_product_layout";s:9:"col4-col2";s:21:"product_page_bg_color";s:7:"#f6f6f6";s:15:"grid_variations";b:1;s:11:"custom_logo";i:2943;s:19:"blog_output_excerpt";b:0;}s:7:"options";a:28:{s:22:"woocommerce_demo_store";s:2:"no";s:29:"woocommerce_demo_store_notice";s:75:"This is a demo store for testing purposes — no orders shall be fulfilled.";s:29:"woocommerce_shop_page_display";s:0:"";s:36:"woocommerce_category_archive_display";s:4:"both";s:35:"woocommerce_default_catalog_orderby";s:4:"date";s:27:"woocommerce_catalog_columns";s:1:"3";s:30:"woocommerce_single_image_width";s:3:"600";s:33:"woocommerce_thumbnail_image_width";s:3:"300";s:30:"woocommerce_thumbnail_cropping";s:3:"1:1";s:43:"woocommerce_thumbnail_cropping_custom_width";s:1:"4";s:44:"woocommerce_thumbnail_cropping_custom_height";s:1:"3";s:34:"woocommerce_checkout_company_field";s:8:"optional";s:36:"woocommerce_checkout_address_2_field";s:8:"optional";s:32:"woocommerce_checkout_phone_field";s:8:"required";s:46:"woocommerce_checkout_highlight_required_fields";s:3:"yes";s:55:"woocommerce_checkout_terms_and_conditions_checkbox_text";s:44:"I have read and agree to the website [terms]";s:40:"woocommerce_checkout_privacy_policy_text";s:161:"Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our [privacy_policy].";s:26:"wp_page_for_privacy_policy";s:0:"";s:25:"woocommerce_terms_page_id";s:0:"";s:9:"site_icon";s:1:"0";s:43:"wpseo_titles[breadcrumbs-display-blog-page]";b:1;s:29:"wpseo_titles[breadcrumbs-sep]";s:4:"&gt;";s:30:"wpseo_titles[breadcrumbs-home]";s:4:"Home";s:32:"wpseo_titles[breadcrumbs-prefix]";s:0:"";s:39:"wpseo_titles[breadcrumbs-archiveprefix]";s:12:"Archives for";s:38:"wpseo_titles[breadcrumbs-searchprefix]";s:16:"You searched for";s:34:"wpseo_titles[breadcrumbs-404crumb]";s:25:"Error 404: Page not found";s:23:"nav_menus_created_posts";a:0:{}}s:6:"wp_css";s:967:"@media screen and (min-width: 768px) {
+	.blog .site-sidebar {
+		padding-top: 4em;
+	}
+	.archive:not(.woocommerce) .site-sidebar {
+		padding-top: 65px;
+	}
+	.site-branding .hgroup-sidebar .widget {
+    margin: 0 25px 0 0;
+  }
+}
+
+.site-logo img {
+	max-width: 200px;
+}
+
+.elementor-1961 .elementor-element.elementor-element-01e8704 iframe {
+	height: 450px !important;
+}
+
+.elementor-element-6ba5f732 .tz-testimonials {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.tz-categories-grid .title-wrapper {
+    margin-bottom: 10px;
+}
+
+.tz-hoverable-tabs li.active .inner-content,
+.tz-hoverable-tabs li.active .inner-content .elementor-top-section {
+	min-height: 562px;
+}
+
+@media screen and (max-width: 500px) {
+  .mobile-centered {
+	  text-align: center;
+  }
+	.elementor-2392 .elementor-element.elementor-element-105ae5e3,
+	.elementor-2325 .elementor-element.elementor-element-105ae5e3,
+	.elementor-2233 .elementor-element.elementor-element-5e9101f6{
+		background-size: contain;
+	}
+}
+
+
+";}

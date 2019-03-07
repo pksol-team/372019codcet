@@ -1,0 +1,91 @@
+
+---Upload files---
+Content file was not uploaded. Error: 
+
+---Upload files---
+Redux file was not uploaded. Error: File is empty. Please upload something more substantial.
+
+---Upload files---
+The import files were successfully uploaded!
+Initial max execution time = 60
+Files info:
+Site URL = http://chromium.themes.zone/catalog
+Data file = not defined!
+Widget file = /srv/demo/chromium/wp-content/uploads/sites/11/2018/08/chromium-widgets.wie
+Customizer file = /srv/demo/chromium/wp-content/uploads/sites/11/2018/08/chromium-customizer.dat
+Redux files:
+not defined!
+
+---Importing widgets---
+sidebar-blog : Sidebar does not exist in theme (moving widget to Inactive)
+
+Search - No Title - Imported to Inactive
+Recent Posts - No Title - Imported to Inactive
+Recent Comments - No Title - Imported to Inactive
+Archives - No Title - Imported to Inactive
+Categories - No Title - Imported to Inactive
+Meta - No Title - Imported to Inactive
+TZ Categories - Top Categories - Imported to Inactive
+TZ Recent Posts - Recent Posts - Imported to Inactive
+Recent Comments - Latest Comments - Imported to Inactive
+Archives - Archives - Imported to Inactive
+TZ Most Viewed Posts - Most Viewed Posts - Imported to Inactive
+TZ Social Icons - Socials - Imported to Inactive
+
+hgroup-sidebar : Sidebar does not exist in theme (moving widget to Inactive)
+
+Woo Ajax Search - No Title - Imported to Inactive
+Custom HTML - No Title - Imported to Inactive
+TZ Cart for Woocommerce - Shopping Cart - Imported to Inactive
+
+sidebar-shop : Sidebar does not exist in theme (moving widget to Inactive)
+
+TZ Categories - Categories - Imported to Inactive
+Active Product Filters - Active Filters - Imported to Inactive
+Filter Products by Price - Price - Imported to Inactive
+Filter Products by Attribute - Department - Imported to Inactive
+Filter Products by Attribute - Car Type - Imported to Inactive
+Filter Products by Attribute - Brand - Imported to Inactive
+
+sidebar-product : Sidebar does not exist in theme (moving widget to Inactive)
+
+Products - Recent Products - Imported to Inactive
+Product Tag Cloud - Product tags - Imported to Inactive
+
+footer-sidebar-1 : Sidebar does not exist in theme (moving widget to Inactive)
+
+TZ Contacts - No Title - Imported to Inactive
+TZ Social Icons - Join Us: - Imported to Inactive
+
+footer-sidebar-2 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Meta - INFORMATION - Imported to Inactive
+
+footer-sidebar-3 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Pages - WHY BUY FROM US - Imported to Inactive
+
+footer-sidebar-4 : Sidebar does not exist in theme (moving widget to Inactive)
+
+TZ Payment Icons - We Accept: - Imported to Inactive
+
+top-sidebar-left : Sidebar does not exist in theme (moving widget to Inactive)
+
+Text - No Title - Imported to Inactive
+Text - No Title - Imported to Inactive
+Text - No Title - Imported to Inactive
+
+top-sidebar-right : Sidebar does not exist in theme (moving widget to Inactive)
+
+WooCommerce Currency Switcher - Currency:  - Imported to Inactive
+TZ Login/Register - No Title - Imported to Inactive
+
+Max Mega Menu Widgets : 
+
+TZ Output Shortcode - No Title - Imported
+TZ Output Shortcode - No Title - Imported
+
+
+
+---Importing customizer settings---
+Error: The customizer import file is not suitable for current theme. You can only import customizer settings for the same theme or a child theme.

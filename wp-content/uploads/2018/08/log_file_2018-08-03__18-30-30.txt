@@ -1,0 +1,31 @@
+
+---Downloaded files---
+The import files for: Chromium Demo (Portal) were successfully downloaded!
+Initial max execution time = 60
+Files info:
+Site URL = http://chromium.themes.zone/catalog
+Data file = /srv/demo/chromium/wp-content/themes/chromium/dummy-data/demo4/chromium-content.xml
+Widget file = /srv/demo/chromium/wp-content/themes/chromium/dummy-data/demo4/chromium-widgets.wie
+Customizer file = /srv/demo/chromium/wp-content/themes/chromium/dummy-data/demo4/chromium-customizer.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+[ERROR] Failed to import "One Click Demo Import - log_file_2018-08-03__07-45-23" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "One Click Demo Import - log_file_2018-08-03__07-45-23" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "One Click Demo Import - log_file_2018-08-03__07-45-23" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "One Click Demo Import - log_file_2018-08-03__07-45-23" (Media)
+

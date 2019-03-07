@@ -1,0 +1,1528 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Themes Zone Feature Pack\n"
+"POT-Creation-Date: 2018-07-27 13:13+0100\n"
+"PO-Revision-Date: 2018-07-27 13:13+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/class-tz-feature-pack-login-register.php:10
+msgid "Sending user info, please wait..."
+msgstr ""
+
+#: includes/class-tz-feature-pack-login-register.php:28
+#: includes/widgets/class-tz-feature-pack-widget-login.php:86
+#: includes/widgets/class-tz-feature-pack-widget-login.php:99
+#: includes/widgets/class-tz-feature-pack-widget-login.php:135
+msgid "Login"
+msgstr ""
+
+#: includes/class-tz-feature-pack-login-register.php:36
+msgid "This username is already registered."
+msgstr ""
+
+#: includes/class-tz-feature-pack-login-register.php:39
+msgid "This email address is already registered."
+msgstr ""
+
+#: includes/class-tz-feature-pack-login-register.php:44
+msgid "You must accept the terms and conditions to become a vendor."
+msgstr ""
+
+#: includes/class-tz-feature-pack-login-register.php:60
+msgid "An unexpected error occurred."
+msgstr ""
+
+#: includes/class-tz-feature-pack-login-register.php:92
+#, php-format
+msgid "New user registration on your site %s:"
+msgstr ""
+
+#: includes/class-tz-feature-pack-login-register.php:93
+#: includes/class-tz-feature-pack-login-register.php:101
+#, php-format
+msgid "Username: %s"
+msgstr ""
+
+#: includes/class-tz-feature-pack-login-register.php:94
+#, php-format
+msgid "Email: %s"
+msgstr ""
+
+#: includes/class-tz-feature-pack-login-register.php:96
+#, php-format
+msgid "[%s] New User Registration"
+msgstr ""
+
+#: includes/class-tz-feature-pack-login-register.php:98
+msgid "Hi there,"
+msgstr ""
+
+#: includes/class-tz-feature-pack-login-register.php:99
+#, php-format
+msgid "Welcome to %s! Here's how to log in:"
+msgstr ""
+
+#: includes/class-tz-feature-pack-login-register.php:102
+#, php-format
+msgid "Password: %s"
+msgstr ""
+
+#: includes/class-tz-feature-pack-login-register.php:103
+#, php-format
+msgid "If you have any problems, please contact me at %s."
+msgstr ""
+
+#: includes/class-tz-feature-pack-login-register.php:104
+msgid "This is an automatically generated email, please do not reply!"
+msgstr ""
+
+#: includes/class-tz-feature-pack-login-register.php:107
+#, php-format
+msgid "[%s] Your username and password"
+msgstr ""
+
+#: includes/class-tz-feature-pack-login-register.php:111
+msgid "Registration"
+msgstr ""
+
+#: includes/class-tz-feature-pack-login-register.php:126
+msgid "Wrong Username or Password"
+msgstr ""
+
+#: includes/class-tz-feature-pack-login-register.php:139
+msgid " successful, redirecting..."
+msgstr ""
+
+#: includes/class-tz-feature-pack-post-like.php:182
+msgid "Like "
+msgstr ""
+
+#: includes/class-tz-feature-pack-post-like.php:186
+msgid "You already liked this image."
+msgstr ""
+
+#: includes/class-tz-feature-pack-post-like.php:188
+msgid "You already liked this product."
+msgstr ""
+
+#: includes/class-tz-feature-pack-post-like.php:190
+msgid "You already liked this post."
+msgstr ""
+
+#: includes/class-tz-feature-pack-post-like.php:196
+msgid "Unlike"
+msgstr ""
+
+#: includes/class-tz-feature-pack-post-like.php:199
+msgid "Like"
+msgstr ""
+
+#: includes/class-tz-feature-pack-share-buttons.php:20
+#: includes/class-tz-feature-pack-share-buttons.php:22
+msgid "Share "
+msgstr ""
+
+#: includes/class-tz-feature-pack-share-buttons.php:47
+msgid "Share this article on Facebook"
+msgstr ""
+
+#: includes/class-tz-feature-pack-share-buttons.php:48
+msgid "Share this article on Twitter"
+msgstr ""
+
+#: includes/class-tz-feature-pack-share-buttons.php:49
+msgid "Share an image on Pinterest"
+msgstr ""
+
+#: includes/class-tz-feature-pack-share-buttons.php:50
+msgid "Share this article on Google+"
+msgstr ""
+
+#: includes/class-tz-feature-pack-share-buttons.php:51
+msgid "Email this article to a friend"
+msgstr ""
+
+#: includes/class-tz-feature-pack-share-buttons.php:52
+msgid "Share this article on LinkedIn"
+msgstr ""
+
+#: includes/class-tz-feature-pack-share-buttons.php:53
+msgid "Share this article on Vkontakte"
+msgstr ""
+
+#: includes/class-tz-feature-pack-share-buttons.php:54
+msgid "Share this article on Tumblr"
+msgstr ""
+
+#: includes/class-tz-feature-pack-share-buttons.php:59
+msgid "Total: "
+msgstr ""
+
+#: includes/class-tz-feature-pack-share-buttons.php:63
+msgid "Share with "
+msgstr ""
+
+#: includes/class-tz-feature-pack-share-buttons.php:70
+msgid "A great post: "
+msgstr ""
+
+#: includes/class-tz-feature-pack-share-buttons.php:97
+msgid "Check this!"
+msgstr ""
+
+#: includes/class-tz-feature-pack-share-buttons.php:98
+msgid "See more at: "
+msgstr ""
+
+#: includes/class-tz-feature-pack-taxonomy-imgs.php:63
+msgid "Taxonomy Term Image"
+msgstr ""
+
+#: includes/class-tz-feature-pack-taxonomy-imgs.php:64
+msgid "Select which image should represent this term."
+msgstr ""
+
+#: includes/class-tz-feature-pack-taxonomy-imgs.php:65
+msgid "Select Image"
+msgstr ""
+
+#: includes/class-tz-feature-pack-taxonomy-imgs.php:66
+msgid "Remove"
+msgstr ""
+
+#: includes/class-tz-feature-pack-taxonomy-imgs.php:67
+msgid "Select or upload an image for this term"
+msgstr ""
+
+#: includes/class-tz-feature-pack-taxonomy-imgs.php:68
+msgid "Attach"
+msgstr ""
+
+#: includes/class-tz-feature-pack-taxonomy-imgs.php:69
+msgid "Image"
+msgstr ""
+
+#: includes/class-tz-feature-pack.php:315
+msgid "Themes Zone Widgets"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-banner.php:19
+msgid "TZ Promo Banner"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-banner.php:48
+#: includes/elementor/class-tz-feature-pack-elementor-categories.php:47
+#: includes/elementor/class-tz-feature-pack-elementor-hoverable-tabs.php:48
+#: includes/elementor/class-tz-feature-pack-elementor-product-tabs.php:48
+#: includes/elementor/class-tz-feature-pack-elementor-recent-post.php:47
+#: includes/elementor/class-tz-feature-pack-elementor-sale-carousel.php:73
+#: includes/elementor/class-tz-feature-pack-elementor-testimonials.php:49
+#: includes/elementor/class-tz-feature-pack-elementor-woo-codes.php:47
+#: includes/elementor/class-tz-woo-categories-menu.php:60
+msgid "Content"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-banner.php:54
+msgid "Banner Image"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-banner.php:55
+msgid "Select image for banner background."
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-banner.php:65
+msgid "Image size"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-banner.php:79
+msgid "Banner main caption"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-banner.php:87
+msgid "Specify top/left offset for banner main caption"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-banner.php:99
+msgid "Banner secondary caption"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-banner.php:107
+msgid "Specify top/left offset for banner secondary caption"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-banner.php:120
+msgid "Style"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-banner.php:126
+msgid "Choose animation effect for Banner"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-banner.php:156
+msgid "Add link to banner"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-categories.php:18
+msgid "TZ Product Categories Grid/Carousel"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-categories.php:53
+#: includes/elementor/class-tz-feature-pack-elementor-hoverable-tabs.php:55
+#: includes/elementor/class-tz-feature-pack-elementor-product-tabs.php:55
+#: includes/elementor/class-tz-feature-pack-elementor-product-tabs.php:179
+#: includes/elementor/class-tz-feature-pack-elementor-recent-post.php:54
+#: includes/elementor/class-tz-feature-pack-elementor-sale-carousel.php:79
+#: includes/elementor/class-tz-feature-pack-elementor-testimonials.php:55
+#: includes/elementor/class-tz-feature-pack-elementor-woo-codes.php:54
+#: includes/elementor/class-tz-feature-pack-elementor-woo-codes.php:119
+#: includes/widgets/class-tz-feature-pack-widget-collapsing-taxonomy-list.php:42
+#: includes/widgets/class-tz-feature-pack-widget-recent-posts.php:42
+msgid "Title"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-categories.php:55
+#: includes/elementor/class-tz-feature-pack-elementor-hoverable-tabs.php:57
+#: includes/elementor/class-tz-feature-pack-elementor-product-tabs.php:57
+#: includes/elementor/class-tz-feature-pack-elementor-recent-post.php:56
+#: includes/elementor/class-tz-feature-pack-elementor-sale-carousel.php:81
+#: includes/elementor/class-tz-feature-pack-elementor-testimonials.php:57
+#: includes/elementor/class-tz-feature-pack-elementor-woo-codes.php:56
+msgid "Default title text"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-categories.php:56
+#: includes/elementor/class-tz-feature-pack-elementor-hoverable-tabs.php:58
+#: includes/elementor/class-tz-feature-pack-elementor-product-tabs.php:58
+#: includes/elementor/class-tz-feature-pack-elementor-recent-post.php:57
+#: includes/elementor/class-tz-feature-pack-elementor-sale-carousel.php:82
+#: includes/elementor/class-tz-feature-pack-elementor-testimonials.php:58
+#: includes/elementor/class-tz-feature-pack-elementor-woo-codes.php:57
+msgid "Type your title text here"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-categories.php:62
+msgid "Product Categories Output"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-categories.php:66
+msgid "Grid"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-categories.php:67
+msgid "Carousel"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-categories.php:74
+msgid "Grid/Carousel Columns quantity"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-categories.php:78
+#: includes/elementor/class-tz-feature-pack-elementor-product-tabs.php:91
+#: includes/elementor/class-tz-feature-pack-elementor-recent-post.php:103
+#: includes/elementor/class-tz-feature-pack-elementor-woo-codes.php:153
+msgid "2 Cols"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-categories.php:79
+#: includes/elementor/class-tz-feature-pack-elementor-product-tabs.php:92
+#: includes/elementor/class-tz-feature-pack-elementor-recent-post.php:104
+#: includes/elementor/class-tz-feature-pack-elementor-woo-codes.php:154
+msgid "3 Cols"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-categories.php:80
+#: includes/elementor/class-tz-feature-pack-elementor-product-tabs.php:93
+#: includes/elementor/class-tz-feature-pack-elementor-recent-post.php:105
+#: includes/elementor/class-tz-feature-pack-elementor-woo-codes.php:155
+msgid "4 Cols"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-categories.php:81
+#: includes/elementor/class-tz-feature-pack-elementor-product-tabs.php:94
+#: includes/elementor/class-tz-feature-pack-elementor-recent-post.php:106
+#: includes/elementor/class-tz-feature-pack-elementor-woo-codes.php:156
+msgid "5 Cols"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-categories.php:111
+#: includes/widgets/class-tz-feature-pack-widget-categories.php:71
+msgid "Product Categories"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-categories.php:117
+#: includes/elementor/class-tz-woo-categories-menu.php:70
+msgid "Note: make sure that desired categories have sub-categories"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-categories.php:123
+msgid "Number of Sub Categories to show"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-categories.php:134
+msgid "Button URL"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-categories.php:146
+msgid "Button Label"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-categories.php:148
+msgid "Default label"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-categories.php:149
+msgid "Type your label here"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-categories.php:157
+#: includes/elementor/class-tz-feature-pack-elementor-recent-post.php:163
+#: includes/elementor/class-tz-feature-pack-elementor-sale-carousel.php:201
+#: includes/elementor/class-tz-feature-pack-elementor-testimonials.php:148
+#: includes/elementor/class-tz-feature-pack-elementor-woo-codes.php:131
+msgid "Carousel Options"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-categories.php:164
+#: includes/elementor/class-tz-feature-pack-elementor-recent-post.php:181
+#: includes/elementor/class-tz-feature-pack-elementor-sale-carousel.php:208
+#: includes/elementor/class-tz-feature-pack-elementor-testimonials.php:155
+#: includes/elementor/class-tz-feature-pack-elementor-woo-codes.php:164
+msgid "Autoplay?"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-categories.php:167
+#: includes/elementor/class-tz-feature-pack-elementor-categories.php:179
+#: includes/elementor/class-tz-feature-pack-elementor-categories.php:191
+#: includes/elementor/class-tz-feature-pack-elementor-recent-post.php:91
+#: includes/elementor/class-tz-feature-pack-elementor-recent-post.php:173
+#: includes/elementor/class-tz-feature-pack-elementor-recent-post.php:184
+#: includes/elementor/class-tz-feature-pack-elementor-recent-post.php:195
+#: includes/elementor/class-tz-feature-pack-elementor-recent-post.php:206
+#: includes/elementor/class-tz-feature-pack-elementor-sale-carousel.php:131
+#: includes/elementor/class-tz-feature-pack-elementor-sale-carousel.php:140
+#: includes/elementor/class-tz-feature-pack-elementor-sale-carousel.php:149
+#: includes/elementor/class-tz-feature-pack-elementor-sale-carousel.php:164
+#: includes/elementor/class-tz-feature-pack-elementor-sale-carousel.php:211
+#: includes/elementor/class-tz-feature-pack-elementor-sale-carousel.php:223
+#: includes/elementor/class-tz-feature-pack-elementor-sale-carousel.php:235
+#: includes/elementor/class-tz-feature-pack-elementor-testimonials.php:158
+#: includes/elementor/class-tz-feature-pack-elementor-testimonials.php:169
+#: includes/elementor/class-tz-feature-pack-elementor-testimonials.php:180
+#: includes/elementor/class-tz-feature-pack-elementor-woo-codes.php:141
+#: includes/elementor/class-tz-feature-pack-elementor-woo-codes.php:167
+#: includes/elementor/class-tz-woo-categories-menu.php:80
+msgid "Yes"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-categories.php:168
+#: includes/elementor/class-tz-feature-pack-elementor-categories.php:180
+#: includes/elementor/class-tz-feature-pack-elementor-categories.php:192
+#: includes/elementor/class-tz-feature-pack-elementor-recent-post.php:92
+#: includes/elementor/class-tz-feature-pack-elementor-recent-post.php:174
+#: includes/elementor/class-tz-feature-pack-elementor-recent-post.php:185
+#: includes/elementor/class-tz-feature-pack-elementor-recent-post.php:196
+#: includes/elementor/class-tz-feature-pack-elementor-recent-post.php:207
+#: includes/elementor/class-tz-feature-pack-elementor-sale-carousel.php:132
+#: includes/elementor/class-tz-feature-pack-elementor-sale-carousel.php:141
+#: includes/elementor/class-tz-feature-pack-elementor-sale-carousel.php:150
+#: includes/elementor/class-tz-feature-pack-elementor-sale-carousel.php:165
+#: includes/elementor/class-tz-feature-pack-elementor-sale-carousel.php:212
+#: includes/elementor/class-tz-feature-pack-elementor-sale-carousel.php:224
+#: includes/elementor/class-tz-feature-pack-elementor-sale-carousel.php:236
+#: includes/elementor/class-tz-feature-pack-elementor-testimonials.php:159
+#: includes/elementor/class-tz-feature-pack-elementor-testimonials.php:170
+#: includes/elementor/class-tz-feature-pack-elementor-testimonials.php:181
+#: includes/elementor/class-tz-feature-pack-elementor-woo-codes.php:142
+#: includes/elementor/class-tz-feature-pack-elementor-woo-codes.php:168
+#: includes/elementor/class-tz-woo-categories-menu.php:81
+msgid "No"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-categories.php:176
+#: includes/elementor/class-tz-feature-pack-elementor-recent-post.php:192
+#: includes/elementor/class-tz-feature-pack-elementor-sale-carousel.php:220
+#: includes/elementor/class-tz-feature-pack-elementor-testimonials.php:166
+msgid "Show Arrows?"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-categories.php:188
+#: includes/elementor/class-tz-feature-pack-elementor-recent-post.php:203
+#: includes/elementor/class-tz-feature-pack-elementor-sale-carousel.php:232
+#: includes/elementor/class-tz-feature-pack-elementor-testimonials.php:177
+msgid "Show Dots?"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-categories.php:273
+msgid "Show All"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-categories.php:289
+msgid "No categories specified"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-hoverable-tabs.php:18
+msgid "TZ Hoverable Tabs"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-hoverable-tabs.php:65
+msgid "Tab Content Width (px)"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-hoverable-tabs.php:81
+msgid "Tab Content"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-hoverable-tabs.php:85
+#: includes/elementor/class-tz-feature-pack-elementor-hoverable-tabs.php:92
+#: includes/elementor/class-tz-feature-pack-elementor-product-tabs.php:107
+#: includes/elementor/class-tz-feature-pack-elementor-product-tabs.php:115
+#: includes/elementor/class-tz-feature-pack-elementor-product-tabs.php:117
+msgid "Tab Title"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-hoverable-tabs.php:98
+msgid "Shortcode"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-hoverable-tabs.php:151
+msgid "Nothing to output. Add some tabs first."
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-product-tabs.php:18
+msgid "TZ Product Tabs"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-product-tabs.php:64
+msgid "Tabs Style"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-product-tabs.php:68
+#: includes/elementor/class-tz-feature-pack-elementor-recent-post.php:67
+#: includes/elementor/class-tz-feature-pack-elementor-testimonials.php:68
+msgid "Style 1"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-product-tabs.php:69
+#: includes/elementor/class-tz-feature-pack-elementor-recent-post.php:68
+#: includes/elementor/class-tz-feature-pack-elementor-testimonials.php:69
+msgid "Style 2"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-product-tabs.php:76
+#: includes/elementor/class-tz-feature-pack-elementor-recent-post.php:214
+#: includes/elementor/class-tz-feature-pack-elementor-testimonials.php:188
+#: includes/elementor/class-tz-feature-pack-elementor-woo-codes.php:175
+msgid "Specify gap between slides"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-product-tabs.php:87
+#: includes/elementor/class-tz-feature-pack-elementor-woo-codes.php:149
+msgid "Columns quantity"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-product-tabs.php:95
+#: includes/elementor/class-tz-feature-pack-elementor-recent-post.php:107
+#: includes/elementor/class-tz-feature-pack-elementor-woo-codes.php:157
+msgid "6 Cols"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-product-tabs.php:103
+msgid "Product Shortcodes"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-product-tabs.php:122
+#: includes/elementor/class-tz-feature-pack-elementor-woo-codes.php:63
+msgid "Choose Woocommerce Shortcode"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-product-tabs.php:126
+#: includes/elementor/class-tz-feature-pack-elementor-woo-codes.php:67
+msgid "Recent Products"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-product-tabs.php:127
+#: includes/elementor/class-tz-feature-pack-elementor-woo-codes.php:68
+msgid "Featured Products"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-product-tabs.php:128
+#: includes/elementor/class-tz-feature-pack-elementor-woo-codes.php:69
+msgid "Products by category"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-product-tabs.php:129
+#: includes/elementor/class-tz-feature-pack-elementor-woo-codes.php:70
+msgid "Sale Products"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-product-tabs.php:130
+#: includes/elementor/class-tz-feature-pack-elementor-woo-codes.php:71
+msgid "Best Selling Products"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-product-tabs.php:131
+#: includes/elementor/class-tz-feature-pack-elementor-woo-codes.php:72
+msgid "Top Rated Products"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-product-tabs.php:136
+#: includes/elementor/class-tz-feature-pack-elementor-woo-codes.php:79
+msgid "Categorie SLUG"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-product-tabs.php:140
+#: includes/elementor/class-tz-feature-pack-elementor-woo-codes.php:83
+msgid ""
+"Comma separated list of category slugs which products you want to output. "
+"For shortcode \"Products by category\"."
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-product-tabs.php:144
+#: includes/elementor/class-tz-feature-pack-elementor-woo-codes.php:89
+msgid "Number of Products to show"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-product-tabs.php:153
+msgid "Number of rows"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-product-tabs.php:155
+msgid "TWO"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-product-tabs.php:156
+msgid "ONE"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-product-tabs.php:162
+#: includes/elementor/class-tz-feature-pack-elementor-recent-post.php:125
+#: includes/elementor/class-tz-feature-pack-elementor-woo-codes.php:100
+msgid "Order Parameter"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-product-tabs.php:166
+#: includes/elementor/class-tz-feature-pack-elementor-recent-post.php:129
+#: includes/elementor/class-tz-feature-pack-elementor-woo-codes.php:104
+#: includes/widgets/class-tz-feature-pack-widget-categories.php:88
+msgid "Ascending"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-product-tabs.php:167
+#: includes/elementor/class-tz-feature-pack-elementor-recent-post.php:130
+#: includes/elementor/class-tz-feature-pack-elementor-woo-codes.php:105
+#: includes/widgets/class-tz-feature-pack-widget-categories.php:89
+msgid "Descending"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-product-tabs.php:172
+#: includes/elementor/class-tz-feature-pack-elementor-recent-post.php:137
+#: includes/elementor/class-tz-feature-pack-elementor-woo-codes.php:112
+msgid "Order By Parameter"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-product-tabs.php:176
+#: includes/elementor/class-tz-feature-pack-elementor-recent-post.php:141
+#: includes/elementor/class-tz-feature-pack-elementor-woo-codes.php:116
+#: includes/widgets/class-tz-feature-pack-widget-collapsing-taxonomy-list.php:41
+#: includes/widgets/class-tz-feature-pack-widget-recent-posts.php:41
+msgid "Date"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-product-tabs.php:177
+#: includes/elementor/class-tz-feature-pack-elementor-woo-codes.php:117
+#: includes/widgets/class-tz-feature-pack-widget-categories.php:79
+msgid "ID"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-product-tabs.php:178
+#: includes/elementor/class-tz-feature-pack-elementor-woo-codes.php:118
+msgid "The Menu Order, if set (lower numbers display first)."
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-product-tabs.php:180
+#: includes/elementor/class-tz-feature-pack-elementor-woo-codes.php:120
+msgid "The number of purchases"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-product-tabs.php:181
+#: includes/elementor/class-tz-feature-pack-elementor-woo-codes.php:121
+msgid "The average product rating."
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-product-tabs.php:182
+#: includes/elementor/class-tz-feature-pack-elementor-recent-post.php:142
+#: includes/elementor/class-tz-feature-pack-elementor-woo-codes.php:122
+#: includes/widgets/class-tz-feature-pack-widget-collapsing-taxonomy-list.php:46
+#: includes/widgets/class-tz-feature-pack-widget-recent-posts.php:46
+msgid "Random"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-product-tabs.php:295
+msgid "Nothing to output. Specify woo shortcodes first."
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-recent-post.php:18
+msgid "TZ Posts from Blog"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-recent-post.php:63
+msgid "Choose style for widget"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-recent-post.php:75
+msgid "Choose thumbnail Position"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-recent-post.php:79
+msgid "Left"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-recent-post.php:80
+msgid "Right"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-recent-post.php:81
+msgid "Top"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-recent-post.php:88
+msgid "Show additional post meta (number of comments, likes, shares) on hover?"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-recent-post.php:99
+msgid "Posts per row"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-recent-post.php:114
+msgid "Total number of Posts to show"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-recent-post.php:143
+#: includes/widgets/class-tz-feature-pack-widget-collapsing-taxonomy-list.php:44
+#: includes/widgets/class-tz-feature-pack-widget-recent-posts.php:44
+msgid "Author"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-recent-post.php:144
+msgid "Comments Quantity"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-recent-post.php:151
+msgid "Posts by Categorie SLUG"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-recent-post.php:155
+msgid "Comma separated list of category slugs which posts you want to output."
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-recent-post.php:170
+#: includes/elementor/class-tz-feature-pack-elementor-woo-codes.php:138
+msgid "Use Owl Carousel?"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-recent-post.php:317
+msgid "Click here to read more"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-recent-post.php:326
+msgid "Read more"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-sale-carousel.php:19
+msgid "TZ Sale Carousel"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-sale-carousel.php:88
+msgid "Carousel Items"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-sale-carousel.php:100
+msgid "Product ID"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-sale-carousel.php:107
+msgid "Product Image"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-sale-carousel.php:108
+msgid ""
+"Add Custom Image for sale item instead of Product Image set in product "
+"options."
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-sale-carousel.php:116
+#: includes/elementor/class-tz-feature-pack-elementor-sale-carousel.php:118
+msgid "Heading text"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-sale-carousel.php:122
+msgid "Pre-Countdown text"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-sale-carousel.php:124
+#: includes/elementor/class-tz-feature-pack-elementor-testimonials.php:123
+msgid "Default text"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-sale-carousel.php:128
+msgid "Enable alternative styles for countdown?"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-sale-carousel.php:137
+msgid "Swap Picture and Description?"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-sale-carousel.php:146
+msgid "Replace \"Add to cart\" with link to product?"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-sale-carousel.php:155
+msgid "Button Custom Text"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-sale-carousel.php:157
+msgid "Shop Now"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-sale-carousel.php:161
+msgid "Add price sticker to product image?"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-sale-carousel.php:170
+msgid "Sticker diameter (px)"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-sale-carousel.php:179
+msgid "Specify top/left offset for sticker"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-sale-carousel.php:187
+msgid "Description"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-sale-carousel.php:189
+msgid "Default description"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-sale-carousel.php:246
+#: includes/elementor/class-tz-feature-pack-elementor-testimonials.php:202
+msgid "Color Options"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-sale-carousel.php:253
+#: includes/elementor/class-tz-feature-pack-elementor-testimonials.php:209
+msgid "Title Color"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-sale-carousel.php:265
+msgid "Secondary Title Color"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-sale-carousel.php:277
+msgid "Description Color"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-sale-carousel.php:289
+msgid "Product Title Color"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-sale-carousel.php:301
+msgid "Sticker Background"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-sale-carousel.php:313
+msgid "Sticker Color"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-sale-carousel.php:407
+msgid "Add sale products first"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-testimonials.php:19
+msgid "TZ Testimonials"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-testimonials.php:64
+msgid "Testimonials Style"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-testimonials.php:76
+msgid "Testimonials Per Row"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-testimonials.php:80
+msgid "One per Row"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-testimonials.php:81
+msgid "Two per Row"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-testimonials.php:82
+msgid "Three per Row"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-testimonials.php:89
+msgid "Testimonials Items"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-testimonials.php:101
+msgid "Testimonial Image"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-testimonials.php:109
+#: includes/widgets/class-tz-feature-pack-widget-categories.php:80
+msgid "Name"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-testimonials.php:115
+msgid "Occupation"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-testimonials.php:121
+msgid "Testimonial Text"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-testimonials.php:127
+msgid "Add star rating to testimonial"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-testimonials.php:131
+msgid "5 Stars"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-testimonials.php:132
+msgid "4 Stars"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-testimonials.php:133
+msgid "3 Stars"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-testimonials.php:134
+msgid "2 Stars"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-testimonials.php:135
+msgid "1 Star"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-testimonials.php:221
+msgid "Text Color"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-testimonials.php:233
+msgid "Stars Color"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-testimonials.php:245
+msgid "Testimonial Heading Color"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-testimonials.php:257
+msgid "Background Color for each Testimonial"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-testimonials.php:296
+msgid " on "
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-testimonials.php:332
+msgid "Add some testimonials first"
+msgstr ""
+
+#: includes/elementor/class-tz-feature-pack-elementor-woo-codes.php:18
+msgid "TZ Woocommerce Shortcode"
+msgstr ""
+
+#: includes/elementor/class-tz-woo-categories-menu.php:24
+msgid "Products Categories for Mega Menu"
+msgstr ""
+
+#: includes/elementor/class-tz-woo-categories-menu.php:67
+msgid "Product Category"
+msgstr ""
+
+#: includes/elementor/class-tz-woo-categories-menu.php:77
+msgid "Show subcategories?"
+msgstr ""
+
+#: includes/elementor/class-tz-woo-categories-menu.php:92
+msgid "Author Name"
+msgstr ""
+
+#: includes/elementor/class-tz-woo-categories-menu.php:100
+msgid "Author HTML Tag"
+msgstr ""
+
+#: includes/elementor/class-tz-woo-categories-menu.php:103
+msgid "H4"
+msgstr ""
+
+#: includes/elementor/class-tz-woo-categories-menu.php:104
+msgid "H5"
+msgstr ""
+
+#: includes/elementor/class-tz-woo-categories-menu.php:105
+msgid "H6"
+msgstr ""
+
+#: includes/elementor/class-tz-woo-categories-menu.php:106
+msgid "div"
+msgstr ""
+
+#: includes/elementor/class-tz-woo-categories-menu.php:107
+msgid "span"
+msgstr ""
+
+#: includes/elementor/class-tz-woo-categories-menu.php:116
+msgid "Color"
+msgstr ""
+
+#: includes/elementor/class-tz-woo-categories-menu.php:135
+msgid "Spacing"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-cart.php:12
+msgid "TZ Cart for Woocommerce"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-cart.php:13
+msgid "Themes Zone special widget. Display the user's Cart in the sidebar."
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-cart.php:33
+msgid "My Shopping Cart"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-cart.php:60
+#: includes/widgets/class-tz-feature-pack-widget-contacts.php:52
+#: includes/widgets/class-tz-feature-pack-widget-output-shortcode.php:25
+#: includes/widgets/class-tz-feature-pack-widget-pay-icons.php:105
+#: includes/widgets/class-tz-feature-pack-widget-socials.php:134
+msgid "Title:"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-cart.php:63
+msgid "Hide if cart is empty"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-categories.php:10
+msgid "TZ Categories"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-categories.php:11
+msgid ""
+"Themes Zone special widget. Display configurable list of categories on your "
+"site."
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-categories.php:32
+#: includes/widgets/class-tz-feature-pack-widget-collapsing-taxonomy-list.php:31
+#: includes/widgets/class-tz-feature-pack-widget-hot-offers.php:30
+#: includes/widgets/class-tz-feature-pack-widget-login.php:23
+#: includes/widgets/class-tz-feature-pack-widget-most-viewed-posts.php:28
+#: includes/widgets/class-tz-feature-pack-widget-recent-posts.php:31
+#: includes/widgets/class-tz-feature-pack-widget-search.php:27
+msgid "Title: "
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-categories.php:39
+msgid "Check for alternative widget styling"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-categories.php:45
+msgid "Show count for categories"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-categories.php:51
+msgid "Show images for categories"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-categories.php:57
+msgid "Show hierarchy"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-categories.php:63
+msgid "Collapsing categories"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-categories.php:64
+msgid "works only when \"Show hierarchy\" checked."
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-categories.php:67
+msgid "Categories type:"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-categories.php:69
+msgid "Post Categories"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-categories.php:77
+#: includes/widgets/class-tz-feature-pack-widget-collapsing-taxonomy-list.php:39
+#: includes/widgets/class-tz-feature-pack-widget-recent-posts.php:39
+msgid "Sort by:"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-categories.php:81
+msgid "Slug"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-categories.php:86
+msgid "Order:"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-categories.php:94
+msgid "Exclude Category (ID): "
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-categories.php:96
+msgid "category IDs, separated by commas."
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-categories.php:160
+msgid "No categories"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-collapsing-taxonomy-list.php:10
+msgid "TZ Collapsing Archive List"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-collapsing-taxonomy-list.php:11
+msgid ""
+"Themes Zone special widget. Displaying terms of chosen taxonomy on your site."
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-collapsing-taxonomy-list.php:35
+#: includes/widgets/class-tz-feature-pack-widget-most-viewed-posts.php:32
+#: includes/widgets/class-tz-feature-pack-widget-recent-posts.php:35
+msgid "How many posts to display: "
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-collapsing-taxonomy-list.php:43
+#: includes/widgets/class-tz-feature-pack-widget-recent-posts.php:43
+msgid "Number of comments"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-collapsing-taxonomy-list.php:45
+#: includes/widgets/class-tz-feature-pack-widget-recent-posts.php:45
+msgid "Menu Order (if specified only for pages)"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-collapsing-taxonomy-list.php:51
+#: includes/widgets/class-tz-feature-pack-widget-most-viewed-posts.php:37
+#: includes/widgets/class-tz-feature-pack-widget-recent-posts.php:51
+msgid "Reverse sort order (ascending)?"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-collapsing-taxonomy-list.php:55
+#: includes/widgets/class-tz-feature-pack-widget-most-viewed-posts.php:41
+#: includes/widgets/class-tz-feature-pack-widget-recent-posts.php:55
+msgid "Show publish date?"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-collapsing-taxonomy-list.php:59
+#: includes/widgets/class-tz-feature-pack-widget-recent-posts.php:59
+msgid "Show list of post Categories?"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-collapsing-taxonomy-list.php:63
+#: includes/widgets/class-tz-feature-pack-widget-most-viewed-posts.php:45
+#: includes/widgets/class-tz-feature-pack-widget-recent-posts.php:63
+msgid "Show number of comments?"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-collapsing-taxonomy-list.php:66
+#: includes/widgets/class-tz-feature-pack-widget-most-viewed-posts.php:48
+#: includes/widgets/class-tz-feature-pack-widget-recent-posts.php:66
+msgid "Specify ID of category (categories) to show: "
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-collapsing-taxonomy-list.php:71
+#: includes/widgets/class-tz-feature-pack-widget-most-viewed-posts.php:53
+#: includes/widgets/class-tz-feature-pack-widget-recent-posts.php:71
+msgid "Show post thumbnail?"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-collapsing-taxonomy-list.php:75
+#: includes/widgets/class-tz-feature-pack-widget-recent-posts.php:75
+msgid "Show post excerpt?"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-collapsing-taxonomy-list.php:149
+#: includes/widgets/class-tz-feature-pack-widget-collapsing-taxonomy-list.php:157
+#: includes/widgets/class-tz-feature-pack-widget-most-viewed-posts.php:112
+#: includes/widgets/class-tz-feature-pack-widget-most-viewed-posts.php:120
+#: includes/widgets/class-tz-feature-pack-widget-recent-posts.php:142
+#: includes/widgets/class-tz-feature-pack-widget-recent-posts.php:150
+msgid "Click to learn more about "
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-collapsing-taxonomy-list.php:168
+#: includes/widgets/class-tz-feature-pack-widget-most-viewed-posts.php:131
+#: includes/widgets/class-tz-feature-pack-widget-recent-posts.php:161
+msgid "No comments"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-collapsing-taxonomy-list.php:168
+#: includes/widgets/class-tz-feature-pack-widget-most-viewed-posts.php:131
+#: includes/widgets/class-tz-feature-pack-widget-recent-posts.php:161
+msgid "1 comment"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-collapsing-taxonomy-list.php:168
+#: includes/widgets/class-tz-feature-pack-widget-most-viewed-posts.php:131
+#: includes/widgets/class-tz-feature-pack-widget-recent-posts.php:161
+#, php-format
+msgid "% comments"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-collapsing-taxonomy-list.php:168
+#: includes/widgets/class-tz-feature-pack-widget-most-viewed-posts.php:131
+#: includes/widgets/class-tz-feature-pack-widget-recent-posts.php:161
+msgid "Closed"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-collapsing-taxonomy-list.php:187
+#: includes/widgets/class-tz-feature-pack-widget-recent-posts.php:180
+msgid "There are no posts to display"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-contacts.php:10
+msgid "TZ Contacts"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-contacts.php:11
+msgid "Themes Zone special widget. Configurable Address Widget"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-contacts.php:56
+msgid "Company Name:"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-contacts.php:60
+msgid "Company Logo:"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-contacts.php:63
+msgid "Upload Image"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-contacts.php:66
+#: includes/widgets/class-tz-feature-pack-widget-pay-icons.php:126
+msgid "Pre-Content"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-contacts.php:70
+#: includes/widgets/class-tz-feature-pack-widget-pay-icons.php:131
+msgid "Post-Content"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-contacts.php:74
+msgid "Phone:"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-contacts.php:78
+msgid "Fax:"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-contacts.php:82
+msgid "Skype:"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-contacts.php:86
+msgid "Email:"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-contacts.php:90
+msgid "Address:"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-contacts.php:94
+msgid "Working Hours"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-contacts.php:147
+msgid "Address: "
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-contacts.php:148
+msgid "Phone: "
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-contacts.php:149
+msgid "Fax: "
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-contacts.php:150
+msgid "Skype: "
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-contacts.php:151
+msgid "E-mail: "
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-contacts.php:152
+msgid "Working Hours: "
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-hot-offers.php:12
+msgid "TZ Hot Offers"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-hot-offers.php:13
+msgid ""
+"Themes Zone special widget. Displaying sale products carousel with "
+"countdowns."
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-hot-offers.php:92
+msgid "No sale products with sheduled dates"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-login.php:10
+msgid "TZ Login/Register"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-login.php:11
+msgid "Themes Zone special widget. An AJAX Login/Register form for your site."
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-login.php:28
+msgid "Check if use widget in header top panels"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-login.php:56
+#: includes/widgets/class-tz-feature-pack-widget-login.php:74
+msgid "My Account"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-login.php:59
+msgid "Hello "
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-login.php:61
+msgid "Log out of this account"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-login.php:61
+msgid "Log out"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-login.php:69
+msgid "Hello."
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-login.php:71
+msgid "Sign In"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-login.php:72
+#: includes/widgets/class-tz-feature-pack-widget-login.php:115
+#: includes/widgets/class-tz-feature-pack-widget-login.php:133
+msgid "Register"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-login.php:76
+msgid "Hello. Sign In"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-login.php:90
+#: includes/widgets/class-tz-feature-pack-widget-login.php:91
+#: includes/widgets/class-tz-feature-pack-widget-login.php:119
+#: includes/widgets/class-tz-feature-pack-widget-login.php:120
+msgid "Username"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-login.php:91
+#: includes/widgets/class-tz-feature-pack-widget-login.php:120
+msgid "Digits and Letters only."
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-login.php:94
+#: includes/widgets/class-tz-feature-pack-widget-login.php:95
+#: includes/widgets/class-tz-feature-pack-widget-login.php:129
+#: includes/widgets/class-tz-feature-pack-widget-login.php:130
+msgid "Password"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-login.php:98
+msgid "Lost password?"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-login.php:101
+msgid "New to site? "
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-login.php:101
+msgid "Create an Account"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-login.php:105
+msgid "Or login to site using social networks"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-login.php:111
+#: includes/widgets/class-tz-feature-pack-widget-login.php:136
+msgid "(close)"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-login.php:125
+msgid "Email"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-login.php:126
+msgid "E-Mail"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-login.php:135
+msgid "Already have an account? "
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-most-viewed-posts.php:10
+msgid "TZ Most Viewed Posts"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-most-viewed-posts.php:11
+msgid ""
+"Themes Zone special widget. Displaying number of most viewed posts on your "
+"site."
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-most-viewed-posts.php:134
+#, php-format
+msgid "%1$s View"
+msgid_plural "%1$s Views"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/widgets/class-tz-feature-pack-widget-most-viewed-posts.php:145
+msgid "No posts found"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-output-shortcode.php:11
+msgid "Themes Zone special widget. Outputs shortcodes in widget areas."
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-output-shortcode.php:14
+msgid "TZ Output Shortcode"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-output-shortcode.php:28
+msgid "Shortcode:"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-pay-icons.php:10
+msgid "TZ Payment Icons"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-pay-icons.php:11
+msgid "Themes Zone special widget. Add payment methods icons"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-pay-icons.php:110
+#: includes/widgets/class-tz-feature-pack-widget-socials.php:150
+msgid "Icon Size:"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-pay-icons.php:122
+#: includes/widgets/class-tz-feature-pack-widget-socials.php:166
+msgid "Inline Mode"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-pay-icons.php:144
+msgid "Show on frontend"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-pay-icons.php:148
+#: includes/widgets/class-tz-feature-pack-widget-socials.php:174
+msgid "Label:"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-recent-posts.php:10
+msgid "TZ Recent Posts"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-recent-posts.php:11
+msgid ""
+"Themes Zone special widget. Displaying number of recent posts on your site."
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-search.php:10
+msgid "TZ Search"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-search.php:11
+msgid ""
+"Themes Zone special widget. A mobile-friendly search form for your site."
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-search.php:31
+msgid "Input Text: "
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-search.php:35
+msgid "Button Title Text: "
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-search.php:40
+msgid "Add \"search in category\" dropdown?"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-search.php:42
+msgid "Select which post type you want to output in Search results page"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-search.php:46
+msgid "Posts"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-search.php:47
+msgid "Products"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-search.php:59
+msgid ""
+"Exclude next categories(a comma-separated list of categories by unique ID, "
+"in ascending order): "
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-search.php:112
+msgid "All"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-socials.php:10
+msgid "TZ Social Icons"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-socials.php:12
+msgid ""
+"Themes Zone special widget. Displays a list of social media website icons "
+"and a link to your profile."
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-socials.php:139
+msgid "Add Colour Rectangles around icons?"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-socials.php:177
+msgid "URL:"
+msgstr ""
+
+#: includes/widgets/class-tz-feature-pack-widget-socials.php:229
+msgid "Connect us"
+msgstr ""

@@ -1,0 +1,297 @@
+/*
+Theme Name: Chromium
+
+Adding support for languages written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+https://codex.wordpress.org/Right-to-Left_Language_Support
+
+*/
+
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+/* Typography & Blog elements */
+blockquote {
+  text-align: right;
+}
+blockquote cite, blockquote small {
+  text-align: left;
+}
+
+/* Logo Positioning on big screens */
+@media screen and (min-width: 768px) {
+  .logo-pos-left .site-branding .site-logo, .logo-pos-left .site-branding .header-group {
+    text-align: right;
+  }
+  .logo-pos-left .site-branding .logo-group-nav {
+    text-align: left;
+  }
+  .logo-pos-left .site-branding .hgroup-sidebar {
+    text-align: left;
+  }
+  .logo-pos-right .site-branding .logo-group-nav {
+    text-align: right;
+  }
+  .logo-pos-right .site-branding .hgroup-sidebar {
+    text-align: right;
+  }
+  .logo-pos-center-inside .site-branding .hgroup-sidebar {
+    text-align: left;
+  }
+  .logo-pos-center-inside .site-branding .logo-group-nav {
+    text-align: right;
+  }
+  .logo-pos-center-above .site-branding .logo-group-nav {
+    text-align: right;
+  }
+  .logo-pos-center-above .site-branding .hgroup-sidebar {
+    text-align: left;
+  }
+}
+
+/* Header Elementor */
+.logo-group-nav .sub-menu {
+  text-align: right;
+}
+.site-header .tm-woocompare-widget-product, .site-header .tm-woowishlist-widget-product {
+  text-align: right;
+}
+.site-header .tm-woocompare-widget-product h3, .site-header .tm-woowishlist-widget-product h3 {
+  text-align: right;
+}
+.info-message-icon .logo-call-me {
+  text-align: right;
+}
+.info-message-icon i.logo-widget {
+  float: right;
+}
+
+/* Blog & Posts */
+
+.sticky .sticky-post{
+  right: auto;
+  left: -5px;
+}
+
+.sticky .sticky-post:after{
+  right: auto;
+  left: -2px;
+  border-width: 0 0 6px 0;
+  border-style: solid;
+  border-right: 5px solid transparent !important;
+  transform: rotate(180deg);
+
+}
+
+article.type-post .edit-link{
+  border-left: none;
+  border-right: 1px solid #e1e1e1;
+  padding-right: 11px;
+  margin-right: 11px;
+}
+
+article.type-post .grid-wrapper .post-cats:before,
+.blog-style-2 article.type-post .post-cats:before,
+.blog-style-default article .meta-taxonomy .post-cats:before{
+  padding: 0 0 0 8px;
+}
+
+article.type-post .grid-wrapper .post-tags:before,
+.blog-style-2 article.type-post .post-tags:before,
+.blog-style-default article .meta-taxonomy .post-tags:before{
+  padding: 0 0 0 8px;
+}
+
+blockquote:before{
+  left: auto;
+  right: 30px;
+}
+
+.error404 .page-title {
+  text-align: right;
+}
+article.type-post .entry-title {
+  text-align: right;
+}
+.comments-area .comment-reply-title {
+  text-align: right;
+}
+.comments-area .pingback .comment-meta, .comments-area .trackback .comment-meta {
+  text-align: right;
+}
+.comment-navigation {
+  text-align: right;
+}
+.tz-social-links div.wrapper {
+  text-align: right;
+}
+article.type-post img.avatar {
+  margin: -5px 0 0 1em;
+  float: right;
+}
+article.type-post .author-info img.avatar {
+  margin: 0 0 1em 1em;
+  float: right;
+}
+.comment-numeric-navigation .page-links-title {
+  float: right;
+}
+.comment-navigation .prev {
+  float: right;
+}
+.comment-navigation .next {
+  float: left;
+}
+.tz-social-links .sharecount {
+  float: left;
+}
+@media (min-width: 768px) {
+  article.type-post .meta-counters, article.type-attachment .meta-counters {
+    float: left;
+    text-align: right;
+  }
+  .site-content .related-posts .entry-title.related-posts-title {
+    text-align: right;
+  }
+  .related-posts .item-content {
+    text-align: right;
+  }
+  .comments-area .comments-title {
+    text-align: right;
+  }
+  .comments-area .comment-meta {
+    text-align: right;
+  }
+  .comments-area .comment-form-author, .comments-area .comment-form-email, .comments-area .comment-form-url {
+    float: right;
+  }
+}
+
+/* Sidebar & widgets */
+.widget_calendar #prev, .widget_calendar #next {
+  text-align: right;
+}
+.widget_calendar #next {
+  text-align: left;
+}
+.widget_categories ul li, .widget_archive ul li {
+  text-align: left;
+}
+.widget_categories ul li a, .widget_archive ul li a {
+  text-align: right;
+  float: right;
+}
+
+/* Footer */
+@media (min-width: 768px) {
+  .footer-widgets .widget-area {
+    text-align: right;
+  }
+  .site-info {
+    text-align: right;
+  }
+}
+
+/* Galleris */
+#chromium-gallery .gallery-item-description h3 {
+  text-align: right;
+}
+.mfp-content {
+  text-align: right;
+}
+.mfp-title {
+  text-align: right;
+}
+#chromium-gallery .gallery-item-description a {
+  float: right;
+}
+article.attachment .attachment-img {
+  float: right;
+}
+article.format-gallery .owl-next {
+  float: left;
+}
+
+/* Additional Elements */
+.entry-content table.tablesaw tbody th.tm-woocompare-heading-cell {
+  text-align: right;
+}
+.site .dgwt-wcas-sp del {
+  text-align: right;
+}
+.wpcf7-form .form-row-first, .wpcf7-form .form-row-last {
+  float: left;
+}
+.wpcf7-form .form-row-first {
+  float: right;
+}
+.site .dgwt-wcas-sf-wrapp input[type="search"].dgwt-wcas-search-input {
+  float: right;
+}
+.site .dgwt-wcas-search-wrapp {
+  float: right;
+}
+@media screen and (min-width: 768px) and (max-width: 800px) {
+  .two-column-banner {
+    float: right;
+  }
+}
+
+/* WooCommerce */
+.woocommerce-ordering select,
+.product-pager select{
+  padding: 0 12px 0 40px;
+}
+
+.woocommerce-ordering::before,
+.product-pager::before{
+  right: auto;
+  left: 35px;
+}
+
+.woocommerce-ordering::after,
+.product-pager::after{
+  right: auto;
+  left: 12px;
+}
+
+li.product .woocommerce-loop-product__title{
+  text-align: right;
+}
+@media only screen and (min-width: 768px) {
+  ul.tabs.wc-tabs>li{
+    float: right;
+  }
+}
+
+#reviews .comment-form-comment label{
+  float: right;
+}
+
+.cart_totals tr th{
+  text-align: right;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered{
+  text-align: right;
+}
+
+.woocommerce-shipping-calculator a::after{
+  padding-left: 0;
+  padding-right: 5px;
+}
+
+.woocommerce-checkout .login-wrapper,
+.woocommerce-checkout .coupon-wrapper{
+  float: right;
+}
+
+div.payment_box:before{
+  left: auto;
+  right: 30px;
+}

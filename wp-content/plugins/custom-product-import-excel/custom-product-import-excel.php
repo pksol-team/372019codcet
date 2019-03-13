@@ -59,8 +59,20 @@ function custom_product_importer_handler() {
             <td>'.$row->model.'</td>
             <td>'.$description.'</td>
             <td>
-                <input type="text" name="price" class="tc_price" placeholder="Enter Price">
-                <br><button class="tc_import">+ Add</button>
+                <form class="adding_to_woo">                    
+                    <input type="hidden" name="name" value="'.$row->name.'">
+                    <input type="hidden" name="brand" value="'.$row->brand.'">
+                    <input type="hidden" name="model" value="'.$row->model.'">
+                    <input type="hidden" name="height" value="'.$row->height.'">
+                    <input type="hidden" name="width" value="'.$row->width.'">
+                    <input type="hidden" name="doors" value="'.$row->doors.'">
+                    <input type="hidden" name="seats" value="'.$row->seats.'">
+                    <input type="hidden" name="brake" value="'.$row->brake.'">
+                    <input type="hidden" name="engine" value="'.$row->engine.'">
+                    <input type="hidden" name="fuel_capacity" value="'.$row->fuel_capacity.'">
+                    <input type="text" name="price" class="tc_price" placeholder="Enter Price">
+                    <br><button class="tc_import" type="submit">+ Add</button>
+                </form>
             </td>
         </tr>';
     }
@@ -182,47 +194,156 @@ function admin_footer_script() {
 
         <script src="'.$plugin_url.'/js/extention/choices.js"></script>
         <script type="text/javascript" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+        
         <script>
+
+            ajaxurl = "'.get_site_url().'/wp-admin/admin-ajax.php";
+
+            $(document).ready(function() {
+
        
-            const choices = new Choices("[data-trigger]",
-            {
-                searchEnabled: false,
-                itemSelectText: "",
-            });
+                const choices = new Choices("[data-trigger]",
+                {
+                    searchEnabled: false,
+                    itemSelectText: "",
+                });
 
-        	var tables = $("#table-data").DataTable({
-                searching: true,
-                ordering:  false,
-                "lengthChange":   false
-            });
+                var tables = $("#table-data").DataTable({
+                    searching: true,
+                    ordering:  false,
+                    "lengthChange":   false
+                });
 
-            $(".search-submit-form").submit(function(e){
-                
-                e.preventDefault();
-
-                var brand = $("#brand-input").val();
-                var model = $("#model-input").val();
-                var search = $("#search-input").val();
-
-                if(brand != "" && model != "" && search != "") {
-
-                    tables
-                    .column(0).search( search )
-                    .column(1).search( brand )
-                    .column(2).search( model )
-                    .draw();
+                $(".search-submit-form").submit(function(e){
                     
-                } else {
-                    alert("Please fill the search parameters Correctly");
-                } 
-                
+                    e.preventDefault();
+
+                    var brand = $("#brand-input").val();
+                    var model = $("#model-input").val();
+                    var search = $("#search-input").val();
+
+                    if(brand != "" && model != "" && search != "") {
+
+                        tables
+                        .column(0).search( search )
+                        .column(1).search( brand )
+                        .column(2).search( model )
+                        .draw();
+                        
+                    } else {
+                        alert("Please fill the search parameters Correctly");
+                    } 
+                    
+                });
+
+                $(document).on("submit", ".adding_to_woo", function(e){
+                    e.preventDefault();
+
+                    var $this = $(this);
+                    var rawData = $this.serializeArray();
+
+                    var submitButton = $this.find(".tc_import");
+                    
+                    if(rawData[10].value == "") {
+
+                        alert("Please Input Price First");
+
+                    } else {
+
+                        var data = {
+                            action: "inserting_data",
+                            data: rawData
+                        };
+
+                        submitButton.html("Adding...").attr("disabled", "disabled");
+
+                        $.post(ajaxurl, data, function (response) {
+                            submitButton.html("added");
+                            $this.parent().parent().fadeOut("Fast");
+                            $this.remove();
+                        });
+
+                    }
+
+                });
+
+
             });
             
             </script>
-            
-            .column()
-        
     ';
+}
+
+add_action( 'wp_ajax_nopriv_inserting_data', 'inserting_data' );
+add_action( 'wp_ajax_inserting_data', 'inserting_data' );
+
+
+function inserting_data() { 
+    
+    $data = $_POST['data'];
+
+    $name = ucwords($data[0]['value']);
+    $price = (int) $data[10]['value'];
+
+    $post_id = wp_insert_post( array(
+        'post_title' => $name,
+        'post_content' => $name,
+        'post_status' => 'publish',
+        'post_type' => "product",
+    ) );
+
+    wp_set_object_terms( $post_id, 'simple', 'product_type' );
+
+    update_post_meta( $post_id, '_visibility', 'visible' );
+    update_post_meta( $post_id, '_stock_status', 'instock');
+    update_post_meta( $post_id, 'total_sales', '0' );
+    update_post_meta( $post_id, '_downloadable', 'no' );
+    update_post_meta( $post_id, '_virtual', 'yes' );
+    update_post_meta( $post_id, '_regular_price', $price );
+    update_post_meta( $post_id, '_sale_price', '' );
+    update_post_meta( $post_id, '_purchase_note', '' );
+    update_post_meta( $post_id, '_featured', 'no' );
+    update_post_meta( $post_id, '_weight', '' );
+    update_post_meta( $post_id, '_length', '' );
+    update_post_meta( $post_id, '_width', '' );
+    update_post_meta( $post_id, '_height', '' );
+    update_post_meta( $post_id, '_sku', '' );
+    update_post_meta( $post_id, '_product_attributes', array() );
+    update_post_meta( $post_id, '_sale_price_dates_from', '' );
+    update_post_meta( $post_id, '_sale_price_dates_to', '' );
+    update_post_meta( $post_id, '_price', $price );
+    update_post_meta( $post_id, '_sold_individually', '' );
+    update_post_meta( $post_id, '_manage_stock', 'no' );
+    update_post_meta( $post_id, '_backorders', 'no' );
+    update_post_meta( $post_id, '_stock', '' );
+
+    $atts = [];
+    foreach ($data as $key => $values) {
+
+        if($key != 0 && $key != 10) {
+            $term_added = wp_insert_term($values['value'], 'pa_'.$values['name']);
+
+            $term_taxonomy_ids = wp_set_object_terms($post_id, strtolower($values['value']), 'pa_'.$values['name'], true);
+            
+            $attt = array(
+                'name' => 'pa_'.$values['name'],
+                'value' => strtolower($values['value']),
+                'is_visible' => '1',
+                'is_variation' => '0',
+                'is_taxonomy' => '1'
+            );
+
+
+            array_push($atts, $attt);
+
+        }
+
+    }
+
+    update_post_meta($post_id, '_product_attributes', $atts);
+
+    die();
+
 }
 
 
